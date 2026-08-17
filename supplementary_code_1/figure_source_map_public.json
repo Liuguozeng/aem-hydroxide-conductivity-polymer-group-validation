@@ -1,0 +1,162 @@
+{
+  "schema_version": "1.0",
+  "scope": {
+    "release": "aggregate and synthetic public materials only"
+  },
+  "figures": [
+    {
+      "figure_id": "Fig. 1",
+      "claim": "Repeated-polymer leakage and polymer-held-out performance",
+      "supplementary_data_tables": [
+        "S11",
+        "S6"
+      ],
+      "journal_upload_artifacts": [
+        "artwork/main_figures/Fig1_Leakage_safe_primary_benchmark.pdf"
+      ],
+      "boundary": "Aggregate scientific figure; exact observation-level plotting records follow the manuscript data-access route"
+    },
+    {
+      "figure_id": "Fig. 2",
+      "claim": "Feature-set contribution and cumulative absolute-error distributions",
+      "supplementary_data_tables": [
+        "S6"
+      ],
+      "journal_upload_artifacts": [
+        "artwork/main_figures/Fig2_Descriptor_contribution.pdf"
+      ],
+      "boundary": "Aggregate scientific figure; exact observation-level plotting records follow the manuscript data-access route"
+    },
+    {
+      "figure_id": "Fig. 3",
+      "claim": "Representative fitted AEM response profiles",
+      "supplementary_data_tables": [
+        "S14"
+      ],
+      "journal_upload_artifacts": [
+        "artwork/main_figures/Fig3_AEM_descriptor_responses.pdf"
+      ],
+      "boundary": "Aggregate scientific figure; exact observation-level plotting records follow the manuscript data-access route"
+    },
+    {
+      "figure_id": "Fig. 4",
+      "claim": "Aggregate raw source heterogeneity and baseline shifts",
+      "supplementary_data_tables": [
+        "S9"
+      ],
+      "journal_upload_artifacts": [
+        "artwork/main_figures/Fig4_Source_heterogeneity.pdf"
+      ],
+      "boundary": "Aggregate scientific figure; exact observation-level plotting records follow the manuscript data-access route"
+    },
+    {
+      "figure_id": "Fig. 5",
+      "claim": "Harder grouped-split transfer bounds",
+      "supplementary_data_tables": [
+        "S6",
+        "S13"
+      ],
+      "journal_upload_artifacts": [
+        "artwork/main_figures/Fig5_Applicability_validation_bounds.pdf"
+      ],
+      "boundary": "Aggregate scientific figure; exact observation-level plotting records follow the manuscript data-access route"
+    },
+    {
+      "figure_id": "Fig. S1",
+      "claim": "Data scale, temperature, repeated observations, and target distribution",
+      "supplementary_data_tables": [
+        "S1",
+        "S4"
+      ],
+      "journal_upload_artifacts": [
+        "artwork/supplementary_figures/FigS1_Data_curation_target.pdf"
+      ],
+      "boundary": "Aggregate or descriptive supplementary figure"
+    },
+    {
+      "figure_id": "Fig. S2",
+      "claim": "Descriptive polymer descriptor-space overlays",
+      "supplementary_data_tables": [
+        "S4",
+        "S13"
+      ],
+      "journal_upload_artifacts": [
+        "artwork/supplementary_figures/FigS2_Chemical_space_embedding.pdf"
+      ],
+      "boundary": "Aggregate or descriptive supplementary figure"
+    },
+    {
+      "figure_id": "Fig. S3",
+      "claim": "Descriptor families and reported-field availability",
+      "supplementary_data_tables": [
+        "S2",
+        "S3"
+      ],
+      "journal_upload_artifacts": [
+        "artwork/supplementary_figures/FigS3_Descriptor_taxonomy_field_availability.pdf"
+      ],
+      "boundary": "Aggregate or descriptive supplementary figure"
+    },
+    {
+      "figure_id": "Fig. S4",
+      "claim": "Eleven-model benchmark across R\u00b2, RMSE, MAE and Spearman \u03c1",
+      "supplementary_data_tables": [
+        "S5",
+        "S15"
+      ],
+      "journal_upload_artifacts": [
+        "artwork/supplementary_figures/FigS4_Model_class_benchmark.pdf"
+      ],
+      "boundary": "Aggregate or descriptive supplementary figure"
+    },
+    {
+      "figure_id": "Fig. S5",
+      "claim": "Descriptor-family importance, AEM ranking, and stress tests",
+      "supplementary_data_tables": [
+        "S6",
+        "S7",
+        "S8",
+        "S14"
+      ],
+      "journal_upload_artifacts": [
+        "artwork/supplementary_figures/FigS5_AEM_descriptor_increment.pdf"
+      ],
+      "boundary": "Aggregate or descriptive supplementary figure"
+    },
+    {
+      "figure_id": "Fig. S6",
+      "claim": "Eight-profile fitted AEM response atlas",
+      "supplementary_data_tables": [
+        "S14"
+      ],
+      "journal_upload_artifacts": [
+        "artwork/supplementary_figures/FigS6_AEM_response_profiles_plate_1.pdf",
+        "artwork/supplementary_figures/FigS6_AEM_response_profiles_plate_2.pdf"
+      ],
+      "boundary": "Aggregate or descriptive supplementary figure"
+    },
+    {
+      "figure_id": "Fig. S7",
+      "claim": "Detailed support-distance analysis",
+      "supplementary_data_tables": [
+        "S13"
+      ],
+      "journal_upload_artifacts": [
+        "artwork/supplementary_figures/FigS7_Applicability_domain_analysis.pdf"
+      ],
+      "boundary": "Aggregate or descriptive supplementary figure"
+    },
+    {
+      "figure_id": "Fig. S8",
+      "claim": "Source prediction, shift, rank-retention, and exploratory polymer-theme checks",
+      "supplementary_data_tables": [
+        "S6",
+        "S9"
+      ],
+      "journal_upload_artifacts": [
+        "artwork/supplementary_figures/FigS8_Source_residual_polymer_theme_checks.pdf"
+      ],
+      "boundary": "Aggregate or descriptive supplementary figure"
+    }
+  ]
+}

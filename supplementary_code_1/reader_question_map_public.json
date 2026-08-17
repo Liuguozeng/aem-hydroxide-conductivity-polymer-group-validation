@@ -1,0 +1,103 @@
+{
+  "scope": {
+    "public_reader_question_map_only": true,
+    "toy_script_does_not_generate_reported_metrics": true,
+    "exact_metric_regeneration_uses_non_public_observation_table": true,
+    "no_record_level_targets_or_source_records": true
+  },
+  "questions": [
+    {
+      "question_id": "dataset_not_public",
+      "question": "Why is the curated observation-level dataset not public?",
+      "short_answer": "The full table contains restricted literature-derived extraction records and internal mapping metadata. The public release contains summary metrics, field definitions, curation rules, and a runnable synthetic example.",
+      "inspect": [
+        "Data availability statement",
+        "Supplementary Data 1 Table S12",
+        "README.md",
+        "claim_to_artifact_map_public.json: data_access_scope"
+      ],
+      "boundary": "Full extraction tables, source-derived curation materials, and row-level prediction files are handled through the manuscript data-access route."
+    },
+    {
+      "question_id": "exact_metric_regeneration",
+      "question": "Can the exact manuscript metrics be regenerated from Supplementary Code 1?",
+      "short_answer": "No. Supplementary Code 1 demonstrates the public schema and validation paths; exact CatBoost metric recomputation uses the non-public observation table.",
+      "inspect": [
+        "fixed_model_configuration_public.json",
+        "manuscript_metric_index_public.json",
+        "Supplementary Data 1 Tables S4, S5, S6, and S15",
+        "REPRODUCIBILITY_BOUNDARY.md"
+      ],
+      "boundary": "Toy metrics are deterministic run checks and have no membrane-performance meaning."
+    },
+    {
+      "question_id": "polymer_group_leakage",
+      "question": "How is repeated-polymer leakage handled?",
+      "short_answer": "The public script uses GroupKFold with polymer_group as the grouping key and reports zero overlap between train and test polymer groups in the toy example.",
+      "inspect": [
+        "public_pipeline_template.py output: group_leakage and split_check",
+        "Supplementary Data 1 Table S4",
+        "Fig. 1"
+      ],
+      "boundary": "The toy split checks the public code path; manuscript performance values come from the non-public observation-table CatBoost run."
+    },
+    {
+      "question_id": "rowwise_split_optimism",
+      "question": "Why include a row-wise split if it is leakage-prone?",
+      "short_answer": "The row-wise split is included as an optimistic control to show why polymer-group validation is the main estimate.",
+      "inspect": [
+        "public_pipeline_template.py output: metrics.rowwise_control and split_check.rowwise_control",
+        "Supplementary Data 1 Table S11",
+        "manuscript_metric_index_public.json: random_rowwise_controls"
+      ],
+      "boundary": "Row-wise numbers are not reported as deployable performance."
+    },
+    {
+      "question_id": "small_aem_descriptor_increment",
+      "question": "Why are AEM descriptors useful when their R\u00b2 increment is small?",
+      "short_answer": "Generic descriptors provide the main structure-derived gain over reported membrane/test covariates; AEM descriptors mainly translate fitted model behavior into follow-up measurement questions around hydration/transport balance, packing/accessibility, cation placement, and rigidity/flexibility.",
+      "inspect": [
+        "Figs. 2 and 3",
+        "Fig. S6",
+        "Supplementary Data 1 Tables S6\u2013S8 and S14",
+        "summary_data/aem_response_profile_coordinates_public.csv"
+      ],
+      "boundary": "The manuscript does not claim a large accuracy gain or causal morphology measurement from these descriptors."
+    },
+    {
+      "question_id": "support_distance_and_source_context",
+      "question": "How are extrapolation risk and source-held-out offsets represented?",
+      "short_answer": "Support-distance and source-held-out analyses are treated as risk checks for literature-derived reported-conductivity models.",
+      "inspect": [
+        "Figs. 4 and 5",
+        "Figs. S7 and S8",
+        "Supplementary Data 1 Tables S6, S9, and S13"
+      ],
+      "boundary": "Post hoc source-offset check is an offset-size analysis; raw held-out predictions remain the prospective estimate."
+    },
+    {
+      "question_id": "response_profiles_not_causal",
+      "question": "How should the AEM response profiles be interpreted?",
+      "short_answer": "The profiles are fitted-model response checks over sampled descriptor ranges and serve as prompts for follow-up membrane experiments.",
+      "inspect": [
+        "Fig. 3 caption",
+        "Fig. S6 caption",
+        "Supplementary Data 1 Tables S2 and S14",
+        "summary_data/aem_response_profile_coordinates_public.csv"
+      ],
+      "boundary": "The public package does not include direct free-volume, morphology, hydrated-channel, or transport-pathway characterization."
+    },
+    {
+      "question_id": "supplementary_code_scope",
+      "question": "What does Supplementary Code 1 actually check?",
+      "short_answer": "It checks that the public schema, grouped split, leakage check, row-wise control path, feature-family loop, and claim links are runnable and inspectable without exposing restricted data.",
+      "inspect": [
+        "README.md",
+        "public_pipeline_template.py output: schema_check, split_check, feature_family_check",
+        "claim_to_artifact_map_public.json",
+        "reader_question_map_public.json"
+      ],
+      "boundary": "It is a public inspection example; trained models and row-level predictions follow the manuscript data-access boundary."
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+feature,display_label,design_axis,status,n_non_missing,unique_values,x_5pct,x_95pct,training_support_n,response_amplitude_log10,response_direction_5pct_to_95pct,importance_mean,importance_std,full_model_importance_rank,selection_frequency
+aem__grotthuss_window_contrast,Hydration/transport-window contrast,hydration/transport balance,eligible_continuous,2049,176,0.0,0.2144314456020573,1949,0.061357461283364,decreasing,0.0034562719585516,0.000730869056266,1.0,1.0
+aem__free_volume_proxy,Free-volume-related descriptor,packing/accessibility,eligible_continuous,2049,432,0.0992537313432835,0.3488147368421047,1844,0.0497185695003274,increasing,0.0026155898040215,0.0009016403619592,2.0,1.0
+aem__cation_to_aromatic_dist_mean,Cation-to-aromatic distance,cation chemistry,eligible_continuous,2049,189,0.25,8.0,1884,0.0090772619448995,increasing,0.0010303268797809,0.0004330508020452,3.0,1.0
+aem__transport_heterogeneity,Transport heterogeneity,hydration/transport balance,eligible_continuous,2049,377,0.0,0.4013594902691905,1951,0.0072740527077936,increasing,0.0010080470907842,0.0002260668676622,4.0,1.0
+aem__sidechain_flexibility_proxy,Side-chain flexibility descriptor,backbone/rigidity chemistry,eligible_continuous,2049,418,0.1030526315789473,0.3833333333333333,1846,0.0043265778809835,increasing,0.0008622586073412,0.0004619808436741,5.0,1.0
+aem__backbone_rigidity_proxy,Backbone rigidity descriptor,backbone/rigidity chemistry,eligible_continuous,2049,360,0.4486153846153847,2.3000000000000003,1853,0.009988368261073,decreasing,0.0008448559678131,0.0002897968637814,6.0,1.0
+aem__hydration_overlap_contrast,Hydration-overlap contrast,hydration/network,eligible_continuous,2049,175,0.0,0.2423067102068752,1963,0.0165544162154431,decreasing,0.0007793539222702,0.0003482579883031,7.0,1.0
+aem__aryl_ether_motif_density,Aryl-ether motif density,backbone/rigidity chemistry,eligible_continuous,2049,109,0.0,0.0308810606060605,1946,0.0135381425558023,decreasing,0.0007157941860157,0.0002229480398976,8.0,1.0
+aem__hydrophilic_density_proxy,Hydrophilic-density descriptor,hydration/network,eligible_continuous,2049,415,0.0959642401021711,0.3576767676767677,1849,0.0057676563472954,increasing,0.0006257572795716,0.0002142943237628,9.0,1.0
+aem__water_network_contrast,Water-network contrast,hydration/network,eligible_continuous,2049,174,0.0,0.1420190393180557,1951,0.0211767946654992,increasing,0.0005317159877852,0.0004082479939226,10.0,1.0
+aem__spacer_branching_index,Spacer branching descriptor,cation placement,eligible_continuous,2049,129,0.0,2.9999999999999996,1956,0.0026687959385114,decreasing,0.0004103415339031,0.0002366913070635,13.0,1.0
+aem__water_network_proxy,Water network,hydration/network,eligible_continuous,2049,443,0.043187413858758,0.2554485571097482,1847,0.0057850114542397,decreasing,0.0003791994331898,0.000225817021005,14.0,1.0
+aem__cation_count,Cation count,ionic-site density,eligible_continuous,2049,133,0.21,4.0,1858,0.0160915124937004,increasing,0.0003777529419395,0.0002323199806109,15.0,1.0
+aem__sulfone_motif_density,Sulfone motif density,backbone/rigidity chemistry,eligible_continuous,2049,52,0.0,0.0255020197880685,1946,0.0130485531673942,decreasing,0.0003664135826591,0.0002339208595789,16.0,1.0
+aem__fluorination_proxy,Fluorination,hydrophobic balance,eligible_continuous,2049,132,0.0,0.1405485544848035,1950,0.0129853912904251,increasing,0.0003266286009809,0.0002168446150564,17.0,1.0
+aem__alkaline_vulnerability_proxy,Alkaline vulnerability,alkaline-stability proxy,eligible_continuous,2049,250,0.175,0.5075000000000001,1859,0.0055086432811566,increasing,0.0003098777988762,0.0001159174523087,18.0,1.0
+aem__transport_stability_balance,Transport-balance descriptor,hydration/transport balance,eligible_continuous,2049,445,0.0703344713859686,0.1961209332595317,1846,0.0126733791724862,increasing,0.0002976291011016,0.0001629045858819,19.0,1.0
+aem__has_quaternary_ammonium_like,Quaternary-ammonium-like fraction,cation chemistry,eligible_continuous,2049,49,0.0,1.0,2049,0.001970284017561,increasing,0.0002784354446656,0.0001251632881034,20.0,1.0
+aem__effective_ion_site_density,Effective ion site density,ionic-site density,eligible_continuous,2049,378,0.0279342723004694,0.12,1845,0.0159197670330728,decreasing,0.0002717750869336,0.0004158670358179,21.0,1.0
+aem__beta_h_accessibility_proxy,Beta h accessibility,packing/accessibility,eligible_continuous,2049,77,0.14,1.0,1951,0.0027130271560669,increasing,0.0002567100281248,8.371611856258606e-05,22.0,1.0
+aem__cation_to_anchor_dist_min,Minimum cation-to-anchor distance,cation placement,eligible_continuous,2049,134,1.0,11.0,1892,0.017758315745654,decreasing,0.0002338007560753,0.0002031470500051,23.0,1.0
+aem__cation_to_anchor_dist_mean,Cation-to-anchor distance,cation placement,eligible_continuous,2049,206,1.5,11.5,1851,0.0150041889587286,increasing,0.0002310353867309,0.0002082825969551,24.0,1.0
+aem__ether_motif_density,Ether motif density,backbone/rigidity chemistry,eligible_continuous,2049,150,0.0,0.0608108108108108,1951,0.0013866624400564,decreasing,0.0001988731418148,6.14661125950443e-05,25.0,1.0
+aem__channel_index,Channel index,packing/accessibility,eligible_continuous,2049,445,0.1071743069237965,0.3386417525017844,1865,0.0084064992699093,increasing,0.0001699015890471,0.0001575877123599,26.0,1.0
+aem__cation_to_cation_dist_mean,Cation-to-cation distance,cation chemistry,eligible_continuous,2049,167,0.0,13.89066666666664,1946,0.0038535913487278,decreasing,0.000151684271571,0.000138915138842,27.0,1.0
+aem__cation_accessibility_proxy,Cation accessibility,packing/accessibility,eligible_continuous,2049,438,0.2575314814814814,0.93053492484527,1846,0.0091394444988126,increasing,0.0001311638434091,0.0001473470847296,28.0,1.0
+aem__benzylic_link_density,Benzylic link density,backbone/rigidity chemistry,eligible_continuous,2049,46,0.0,0.4,1957,0.0158950837931015,decreasing,0.0001181857230645,0.0001187777720862,29.0,1.0
+aem__sn2_risk_proxy,Sn2 risk,alkaline-stability proxy,eligible_continuous,2049,172,0.0,0.7009375,1948,0.0056168286330717,increasing,6.978912805553316e-05,0.0001501373478537,30.0,1.0
+aem__ether_free_backbone_proxy,Ether free backbone,backbone/rigidity chemistry,eligible_continuous,2049,21,0.0,1.0,2049,3.359487265197636e-05,decreasing,6.650800824071456e-05,3.690091716120913e-05,31.0,1.0
+aem__ketone_motif_density,Ketone motif density,backbone/rigidity chemistry,eligible_continuous,2049,42,0.0,0.0233108108108108,1948,0.0032298654706148,increasing,5.933703114292532e-05,4.011919505083861e-05,32.0,1.0
+aem__cation_family_count,Cation-family count,cation chemistry,eligible_continuous,2049,88,0.15,2.0,1950,0.003412602529961,decreasing,5.5543401443923846e-05,8.295231943414504e-05,33.0,1.0
+aem__cation_is_backbone_bound_fraction,Cation is backbone bound fraction,cation exposure,eligible_continuous,2049,54,0.0,0.64,1951,0.002684301914047,decreasing,4.8940180898662114e-05,6.41020624133039e-05,34.0,1.0
+aem__has_pyrrolidinium_like,Pyrrolidinium-like fraction,cation chemistry,eligible_continuous,2049,16,0.0,1.0,2049,0.0002646030046205,increasing,3.7441731861842176e-05,2.6559787095096637e-05,35.0,1.0
+aem__spacer_oeg_unit_count,Spacer oeg unit count,cation placement,eligible_continuous,2049,36,0.0,0.5,1988,0.0,flat,2.9438405074932312e-05,2.5675696800563976e-05,36.0,1.0
+aem__hydration_overlap_index,Hydration overlap index,hydration/network,eligible_continuous,2049,380,0.0,0.1414364567383219,1947,0.0076469240335881,decreasing,1.4543798582958289e-05,0.000202690729197,37.0,1.0
+aem__has_imidazolium_like,Imidazolium-like fraction,cation chemistry,eligible_continuous,2049,22,0.0,0.6,1949,0.0095888229043563,decreasing,-6.321498854769403e-06,6.923129550567917e-05,39.0,1.0
+aem__cation_hetero_neighborhood_proxy,Cation hetero-neighborhood descriptor,cation chemistry,eligible_continuous,2049,59,0.0,0.01397212543554,1947,0.004061383863223,decreasing,-1.4147795872014935e-05,5.3594273865606695e-05,40.0,1.0
+aem__has_piperidinium_like,Piperidinium-like fraction,cation chemistry,eligible_continuous,2049,53,0.0,1.0,2049,0.0014072433916159,decreasing,-1.4641834814991746e-05,5.633681106419921e-05,41.0,1.0
+aem__hofmann_e2_risk_proxy,Hofmann e2 risk,alkaline-stability proxy,eligible_continuous,2049,109,0.256,1.0,1949,0.0049265087525627,increasing,-2.8673324703561847e-05,9.6310758725608e-05,42.0,1.0
+aem__ring_cation_fraction,Ring-cation fraction,cation chemistry,eligible_continuous,2049,67,0.0,1.0,2049,0.0025087688538794,decreasing,-2.9769321637359083e-05,8.086108205328941e-05,43.0,1.0
+aem__cation_localization_penalty,Cation localization penalty,cation exposure,eligible_continuous,2049,337,0.0,1.267217664092664,1946,0.0019731177132866,decreasing,-8.352995826099649e-05,0.0001737036960755,44.0,1.0
+aem__cation_is_pendant_fraction,Cation is pendant fraction,cation exposure,eligible_continuous,2049,67,0.144,1.0,1946,0.0031170832165101,decreasing,-0.0001159451018664,8.139972740999832e-05,45.0,1.0
+aem__multication_repeat_proxy,Multication repeat,ionic-site density,eligible_continuous,2049,63,0.0,1.0,2049,0.0012697845502978,decreasing,-0.0001386123766291,8.838354896433373e-05,46.0,1.0
+aem__hydration_shell_overlap_proxy,Hydration-shell overlap descriptor,hydration/network,eligible_continuous,2049,445,0.0352980952967721,0.267921066448904,1845,0.0150401869905378,decreasing,-0.000148570952006,0.0001668605076403,47.0,1.0
+aem__transport_balance_contrast,Transport balance contrast,hydration/transport balance,eligible_continuous,2049,175,0.0,0.145702024489865,1951,0.0053579433516672,decreasing,-0.0001797575456028,0.0002501422619564,48.0,0.6
+aem__alkaline_risk_contrast,Alkaline risk contrast,alkaline-stability proxy,eligible_continuous,2049,59,0.0,0.3139547413793103,1950,0.0233683416755237,decreasing,-0.0002071979065991,0.0002283021697022,49.0,1.0
+aem__water_network_harmonic,Water network harmonic,hydration/network,eligible_continuous,2049,442,0.043187413858758,0.2427764166413182,1846,0.0114254003123828,increasing,-0.0002893017228151,0.0001988464630978,50.0,1.0
+aem__hydrophobicity_proxy,Hydrophobicity,hydrophobic balance,eligible_continuous,2049,445,0.7135951716138763,3.615473126463695,1847,0.0067459557265978,increasing,-0.000328236079967,0.0001224705427936,51.0,1.0
+aem__grotthuss_window_proxy,Grotthuss window,hydration/transport balance,excluded_not_selected_in_reference_model,2049,446,0.0187766246789344,0.2216003788372697,1843,0.0,,0.0004681677224018,0.0001005899854614,11.0,
+aem__spacer_contrast,Spacer contrast,cation placement,excluded_not_selected_in_reference_model,2049,42,0.0,16.0,1957,0.0,,0.0004258989829813,0.0003228496037302,12.0,
+aem__aromaticity_proxy,Aromaticity,backbone/rigidity chemistry,excluded_not_selected_in_reference_model,2049,389,0.3543529411764706,0.7130000000000001,1850,0.0,,0.0,,,
+aem__cyclic_cation_fraction,Cyclic cation fraction,AEM descriptor,excluded_not_selected_in_reference_model,2049,67,0.0,1.0,2049,0.0,,0.0,,,
+aem__has_guanidinium_like,Has guanidinium like,AEM descriptor,excluded_not_selected_in_reference_model,2049,1,0.0,0.0,2049,0.0,,0.0,,,
+aem__has_phosphonium_like,Has phosphonium like,AEM descriptor,excluded_not_selected_in_reference_model,2049,1,0.0,0.0,2049,0.0,,0.0,,,
+aem__has_pyridinium_like,Has pyridinium like,AEM descriptor,excluded_not_selected_in_reference_model,2049,1,0.0,0.0,2049,0.0,,0.0,,,
+aem__ionogenic_site_count_proxy,Ionogenic site count,AEM descriptor,excluded_not_selected_in_reference_model,2049,139,0.21,4.0,1858,0.0,,0.0,,,
+aem__local_charge_density_proxy,Local charge density,ionic-site density,excluded_not_selected_in_reference_model,2049,378,0.0279342723004694,0.12,1845,0.0,,0.0,,,
+aem__spacer_length_proxy,Spacer length,cation placement,excluded_not_selected_in_reference_model,2049,206,1.5,11.5,1851,0.0,,0.0,,,
+aem__steric_hindrance_proxy,Steric hindrance,AEM descriptor,excluded_not_selected_in_reference_model,2049,328,0.0,1.0714285714285714,1950,0.0,,0.0,,,
+aem__accessibility_contrast,Accessibility contrast,packing/accessibility,excluded_not_selected_in_reference_model,2049,163,0.0,0.8562457868809958,1967,0.0,,0.0,,,
+aem__architecture_weighted_channel_index,Architecture weighted channel index,packing/accessibility,excluded_not_selected_in_reference_model,2049,380,0.0,0.2513515845767268,1948,0.0,,0.0,,,
+aem__architecture_weighted_segregation,Architecture weighted segregation,AEM descriptor,excluded_not_selected_in_reference_model,2049,357,0.0,0.7789619653323997,1947,0.0,,0.0,,,
+aem__asymmetric_copolymer_flag,Asymmetric copolymer flag,AEM descriptor,excluded_not_selected_in_reference_model,2049,2,0.0,1.0,2049,0.0,,0.0,,,
+aem__cation_localization_contrast,Cation localization contrast,cation exposure,excluded_not_selected_in_reference_model,2049,137,0.0,0.0707070707070707,1958,0.0,,0.0,,,
+aem__channel_bottleneck_penalty,Channel bottleneck penalty,packing/accessibility,excluded_not_selected_in_reference_model,2049,377,0.0,0.0438431820986101,1949,0.0,,0.0,,,
+aem__channel_formation_index,Channel formation index,packing/accessibility,excluded_not_selected_in_reference_model,2049,380,0.0,0.2185665952841103,1948,0.0,,0.0,,,
+aem__channel_index_contrast,Channel index contrast,packing/accessibility,excluded_not_selected_in_reference_model,2049,175,0.0,0.2622740503601488,1967,0.0,,0.0,,,
+aem__channel_index_harmonic,Channel index harmonic,packing/accessibility,excluded_not_selected_in_reference_model,2049,445,0.1071743069237965,0.3277499744944696,1857,0.0,,0.0,,,
+aem__fluorination_contrast,Fluorination contrast,hydrophobic balance,excluded_not_selected_in_reference_model,2049,40,0.0,0.1621621621621621,1950,0.0,,0.0,,,
+aem__free_volume_contrast,Free volume contrast,packing/accessibility,excluded_not_selected_in_reference_model,2049,165,0.0,0.2835820895522388,1970,0.0,,0.0,,,
+aem__hydration_overlap_harmonic,Hydration overlap harmonic,hydration/network,excluded_not_selected_in_reference_model,2049,446,0.0345589134056688,0.2339871762126973,1845,0.0,,0.0,,,
+aem__hydrophilic_contrast,Hydrophilic contrast,hydration/network,excluded_not_selected_in_reference_model,2049,160,0.0,0.1861111111111111,1949,0.0,,0.0,,,
+aem__hydrophobicity_contrast,Hydrophobicity contrast,hydrophobic balance,excluded_not_selected_in_reference_model,2049,175,0.0,3.899512878787881,1947,0.0,,0.0,,,
+aem__ionic_site_localization_flag,Ionic site localization flag,cation exposure,excluded_not_selected_in_reference_model,2049,2,0.0,0.0,1986,0.0,,0.0,,,
+aem__rigidity_contrast,Rigidity contrast,backbone/rigidity chemistry,excluded_not_selected_in_reference_model,2049,106,0.0,1.7708333333333337,1953,0.0,,0.0,,,
+aem__segregation_index,Segregation index,AEM descriptor,excluded_not_selected_in_reference_model,2049,357,0.0,0.6773582307238258,1947,0.0,,0.0,,,
+aem__neutral_ionogenic_fraction,Neutral ionogenic fraction,AEM descriptor,excluded_low_unique_or_collapsed_range,2049,13,0.0,0.0,1960,0.0,,-1.332027633534766e-06,9.64209331873317e-06,38.0,1.0
+aem__localization_penalty_contrast,Localization penalty contrast,cation exposure,excluded_not_selected_in_reference_model,2049,112,0.0,1.7539473684210527,1948,0.0,,-0.0006479198089844,0.0002954996104678,52.0,

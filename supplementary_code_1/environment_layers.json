@@ -1,0 +1,10 @@
+{
+  "analysis_reference": "environment_analysis.json",
+  "analysis_reference_requirements": "requirements_analysis_reference.txt",
+  "boundary": "The synthetic public smoke test uses only the public-toy dependencies. Locked manuscript metrics use the historical analysis package record and observation-level verification data.",
+  "current_ml_verification": "environment_validation_runtime.json",
+  "public_toy_requirements": "requirements_public_toy.txt",
+  "scope": "separate reproducibility environments",
+  "submission_build": "environment_submission_build.json",
+  "submission_build_requirements": "requirements_submission_build.txt"
+}

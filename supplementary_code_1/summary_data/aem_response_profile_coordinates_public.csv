@@ -1,0 +1,441 @@
+feature,label,design_axis,placement,point_index,x,y,baseline,x_5pct,x_95pct,training_support_n,unique_values,plotted_support_n
+aem__hydration_transport_window_contrast,Hydration/transport-window contrast,hydration/transport balance,Fig. 3,0,0,1.8653206,1.8687346,0,0.21443145,1949,176,1944
+aem__hydration_transport_window_contrast,Hydration/transport-window contrast,hydration/transport balance,Fig. 3,1,0.0039709527,1.8669074,1.8687346,0,0.21443145,1949,176,1944
+aem__hydration_transport_window_contrast,Hydration/transport-window contrast,hydration/transport balance,Fig. 3,2,0.0079419054,1.8684995,1.8687346,0,0.21443145,1949,176,1944
+aem__hydration_transport_window_contrast,Hydration/transport-window contrast,hydration/transport balance,Fig. 3,3,0.011912858,1.8684995,1.8687346,0,0.21443145,1949,176,1944
+aem__hydration_transport_window_contrast,Hydration/transport-window contrast,hydration/transport balance,Fig. 3,4,0.015883811,1.8687346,1.8687346,0,0.21443145,1949,176,1944
+aem__hydration_transport_window_contrast,Hydration/transport-window contrast,hydration/transport balance,Fig. 3,5,0.019854763,1.8687346,1.8687346,0,0.21443145,1949,176,1944
+aem__hydration_transport_window_contrast,Hydration/transport-window contrast,hydration/transport balance,Fig. 3,6,0.023825716,1.8687346,1.8687346,0,0.21443145,1949,176,1944
+aem__hydration_transport_window_contrast,Hydration/transport-window contrast,hydration/transport balance,Fig. 3,7,0.027796669,1.8610039,1.8687346,0,0.21443145,1949,176,1944
+aem__hydration_transport_window_contrast,Hydration/transport-window contrast,hydration/transport balance,Fig. 3,8,0.031767622,1.860211,1.8687346,0,0.21443145,1949,176,1944
+aem__hydration_transport_window_contrast,Hydration/transport-window contrast,hydration/transport balance,Fig. 3,9,0.035738574,1.8583097,1.8687346,0,0.21443145,1949,176,1944
+aem__hydration_transport_window_contrast,Hydration/transport-window contrast,hydration/transport balance,Fig. 3,10,0.039709527,1.85292,1.8687346,0,0.21443145,1949,176,1944
+aem__hydration_transport_window_contrast,Hydration/transport-window contrast,hydration/transport balance,Fig. 3,11,0.04368048,1.8505467,1.8687346,0,0.21443145,1949,176,1944
+aem__hydration_transport_window_contrast,Hydration/transport-window contrast,hydration/transport balance,Fig. 3,12,0.047651432,1.8505467,1.8687346,0,0.21443145,1949,176,1944
+aem__hydration_transport_window_contrast,Hydration/transport-window contrast,hydration/transport balance,Fig. 3,13,0.051622385,1.8505467,1.8687346,0,0.21443145,1949,176,1944
+aem__hydration_transport_window_contrast,Hydration/transport-window contrast,hydration/transport balance,Fig. 3,14,0.055593338,1.8505467,1.8687346,0,0.21443145,1949,176,1944
+aem__hydration_transport_window_contrast,Hydration/transport-window contrast,hydration/transport balance,Fig. 3,15,0.05956429,1.849129,1.8687346,0,0.21443145,1949,176,1944
+aem__hydration_transport_window_contrast,Hydration/transport-window contrast,hydration/transport balance,Fig. 3,16,0.063535243,1.849129,1.8687346,0,0.21443145,1949,176,1944
+aem__hydration_transport_window_contrast,Hydration/transport-window contrast,hydration/transport balance,Fig. 3,17,0.067506196,1.849129,1.8687346,0,0.21443145,1949,176,1944
+aem__hydration_transport_window_contrast,Hydration/transport-window contrast,hydration/transport balance,Fig. 3,18,0.071477149,1.8484899,1.8687346,0,0.21443145,1949,176,1944
+aem__hydration_transport_window_contrast,Hydration/transport-window contrast,hydration/transport balance,Fig. 3,19,0.075448101,1.8484899,1.8687346,0,0.21443145,1949,176,1944
+aem__hydration_transport_window_contrast,Hydration/transport-window contrast,hydration/transport balance,Fig. 3,20,0.079419054,1.8308156,1.8687346,0,0.21443145,1949,176,1944
+aem__hydration_transport_window_contrast,Hydration/transport-window contrast,hydration/transport balance,Fig. 3,21,0.083390007,1.8213061,1.8687346,0,0.21443145,1949,176,1944
+aem__hydration_transport_window_contrast,Hydration/transport-window contrast,hydration/transport balance,Fig. 3,22,0.087360959,1.8213061,1.8687346,0,0.21443145,1949,176,1944
+aem__hydration_transport_window_contrast,Hydration/transport-window contrast,hydration/transport balance,Fig. 3,23,0.091331912,1.817521,1.8687346,0,0.21443145,1949,176,1944
+aem__hydration_transport_window_contrast,Hydration/transport-window contrast,hydration/transport balance,Fig. 3,24,0.095302865,1.817521,1.8687346,0,0.21443145,1949,176,1944
+aem__hydration_transport_window_contrast,Hydration/transport-window contrast,hydration/transport balance,Fig. 3,25,0.099273817,1.817521,1.8687346,0,0.21443145,1949,176,1944
+aem__hydration_transport_window_contrast,Hydration/transport-window contrast,hydration/transport balance,Fig. 3,26,0.10324477,1.8112066,1.8687346,0,0.21443145,1949,176,1944
+aem__hydration_transport_window_contrast,Hydration/transport-window contrast,hydration/transport balance,Fig. 3,27,0.10721572,1.8126105,1.8687346,0,0.21443145,1949,176,1944
+aem__hydration_transport_window_contrast,Hydration/transport-window contrast,hydration/transport balance,Fig. 3,28,0.11118668,1.8126105,1.8687346,0,0.21443145,1949,176,1944
+aem__hydration_transport_window_contrast,Hydration/transport-window contrast,hydration/transport balance,Fig. 3,29,0.11515763,1.8126105,1.8687346,0,0.21443145,1949,176,1944
+aem__hydration_transport_window_contrast,Hydration/transport-window contrast,hydration/transport balance,Fig. 3,30,0.11912858,1.8126105,1.8687346,0,0.21443145,1949,176,1944
+aem__hydration_transport_window_contrast,Hydration/transport-window contrast,hydration/transport balance,Fig. 3,31,0.12309953,1.8103486,1.8687346,0,0.21443145,1949,176,1944
+aem__hydration_transport_window_contrast,Hydration/transport-window contrast,hydration/transport balance,Fig. 3,32,0.12707049,1.8103486,1.8687346,0,0.21443145,1949,176,1944
+aem__hydration_transport_window_contrast,Hydration/transport-window contrast,hydration/transport balance,Fig. 3,33,0.13104144,1.8073771,1.8687346,0,0.21443145,1949,176,1944
+aem__hydration_transport_window_contrast,Hydration/transport-window contrast,hydration/transport balance,Fig. 3,34,0.13501239,1.8073771,1.8687346,0,0.21443145,1949,176,1944
+aem__hydration_transport_window_contrast,Hydration/transport-window contrast,hydration/transport balance,Fig. 3,35,0.13898334,1.8073771,1.8687346,0,0.21443145,1949,176,1944
+aem__hydration_transport_window_contrast,Hydration/transport-window contrast,hydration/transport balance,Fig. 3,36,0.1429543,1.8073771,1.8687346,0,0.21443145,1949,176,1944
+aem__hydration_transport_window_contrast,Hydration/transport-window contrast,hydration/transport balance,Fig. 3,37,0.14692525,1.8073771,1.8687346,0,0.21443145,1949,176,1944
+aem__hydration_transport_window_contrast,Hydration/transport-window contrast,hydration/transport balance,Fig. 3,38,0.1508962,1.8073771,1.8687346,0,0.21443145,1949,176,1944
+aem__hydration_transport_window_contrast,Hydration/transport-window contrast,hydration/transport balance,Fig. 3,39,0.15486716,1.8073771,1.8687346,0,0.21443145,1949,176,1944
+aem__hydration_transport_window_contrast,Hydration/transport-window contrast,hydration/transport balance,Fig. 3,40,0.15883811,1.8073771,1.8687346,0,0.21443145,1949,176,1944
+aem__hydration_transport_window_contrast,Hydration/transport-window contrast,hydration/transport balance,Fig. 3,41,0.16280906,1.8073771,1.8687346,0,0.21443145,1949,176,1944
+aem__hydration_transport_window_contrast,Hydration/transport-window contrast,hydration/transport balance,Fig. 3,42,0.16678001,1.8073771,1.8687346,0,0.21443145,1949,176,1944
+aem__hydration_transport_window_contrast,Hydration/transport-window contrast,hydration/transport balance,Fig. 3,43,0.17075097,1.8073771,1.8687346,0,0.21443145,1949,176,1944
+aem__hydration_transport_window_contrast,Hydration/transport-window contrast,hydration/transport balance,Fig. 3,44,0.17472192,1.8073771,1.8687346,0,0.21443145,1949,176,1944
+aem__hydration_transport_window_contrast,Hydration/transport-window contrast,hydration/transport balance,Fig. 3,45,0.17869287,1.8073771,1.8687346,0,0.21443145,1949,176,1944
+aem__hydration_transport_window_contrast,Hydration/transport-window contrast,hydration/transport balance,Fig. 3,46,0.18266382,1.8073771,1.8687346,0,0.21443145,1949,176,1944
+aem__hydration_transport_window_contrast,Hydration/transport-window contrast,hydration/transport balance,Fig. 3,47,0.18663478,1.8073771,1.8687346,0,0.21443145,1949,176,1944
+aem__hydration_transport_window_contrast,Hydration/transport-window contrast,hydration/transport balance,Fig. 3,48,0.19060573,1.8073771,1.8687346,0,0.21443145,1949,176,1944
+aem__hydration_transport_window_contrast,Hydration/transport-window contrast,hydration/transport balance,Fig. 3,49,0.19457668,1.8073771,1.8687346,0,0.21443145,1949,176,1944
+aem__hydration_transport_window_contrast,Hydration/transport-window contrast,hydration/transport balance,Fig. 3,50,0.19854763,1.8073771,1.8687346,0,0.21443145,1949,176,1944
+aem__hydration_transport_window_contrast,Hydration/transport-window contrast,hydration/transport balance,Fig. 3,51,0.20251859,1.8073771,1.8687346,0,0.21443145,1949,176,1944
+aem__hydration_transport_window_contrast,Hydration/transport-window contrast,hydration/transport balance,Fig. 3,52,0.20648954,1.8073771,1.8687346,0,0.21443145,1949,176,1944
+aem__hydration_transport_window_contrast,Hydration/transport-window contrast,hydration/transport balance,Fig. 3,53,0.21046049,1.8073771,1.8687346,0,0.21443145,1949,176,1944
+aem__hydration_transport_window_contrast,Hydration/transport-window contrast,hydration/transport balance,Fig. 3,54,0.21443145,1.8073771,1.8687346,0,0.21443145,1949,176,1944
+aem__free_volume,Free-volume-related descriptor,packing/accessibility,Fig. 3,0,0.099253731,1.8214991,1.8687346,0.099253731,0.34881474,1844,432,1844
+aem__free_volume,Free-volume-related descriptor,packing/accessibility,Fig. 3,1,0.10387523,1.8214991,1.8687346,0.099253731,0.34881474,1844,432,1844
+aem__free_volume,Free-volume-related descriptor,packing/accessibility,Fig. 3,2,0.10849673,1.8206839,1.8687346,0.099253731,0.34881474,1844,432,1844
+aem__free_volume,Free-volume-related descriptor,packing/accessibility,Fig. 3,3,0.11311823,1.8216413,1.8687346,0.099253731,0.34881474,1844,432,1844
+aem__free_volume,Free-volume-related descriptor,packing/accessibility,Fig. 3,4,0.11773973,1.8216318,1.8687346,0.099253731,0.34881474,1844,432,1844
+aem__free_volume,Free-volume-related descriptor,packing/accessibility,Fig. 3,5,0.12236123,1.8260821,1.8687346,0.099253731,0.34881474,1844,432,1844
+aem__free_volume,Free-volume-related descriptor,packing/accessibility,Fig. 3,6,0.12698273,1.8260821,1.8687346,0.099253731,0.34881474,1844,432,1844
+aem__free_volume,Free-volume-related descriptor,packing/accessibility,Fig. 3,7,0.13160423,1.8260821,1.8687346,0.099253731,0.34881474,1844,432,1844
+aem__free_volume,Free-volume-related descriptor,packing/accessibility,Fig. 3,8,0.13622573,1.849337,1.8687346,0.099253731,0.34881474,1844,432,1844
+aem__free_volume,Free-volume-related descriptor,packing/accessibility,Fig. 3,9,0.14084723,1.8546854,1.8687346,0.099253731,0.34881474,1844,432,1844
+aem__free_volume,Free-volume-related descriptor,packing/accessibility,Fig. 3,10,0.14546873,1.8647901,1.8687346,0.099253731,0.34881474,1844,432,1844
+aem__free_volume,Free-volume-related descriptor,packing/accessibility,Fig. 3,11,0.15009023,1.8692925,1.8687346,0.099253731,0.34881474,1844,432,1844
+aem__free_volume,Free-volume-related descriptor,packing/accessibility,Fig. 3,12,0.15471173,1.8704025,1.8687346,0.099253731,0.34881474,1844,432,1844
+aem__free_volume,Free-volume-related descriptor,packing/accessibility,Fig. 3,13,0.15933323,1.8704025,1.8687346,0.099253731,0.34881474,1844,432,1844
+aem__free_volume,Free-volume-related descriptor,packing/accessibility,Fig. 3,14,0.16395473,1.8698294,1.8687346,0.099253731,0.34881474,1844,432,1844
+aem__free_volume,Free-volume-related descriptor,packing/accessibility,Fig. 3,15,0.16857623,1.8692679,1.8687346,0.099253731,0.34881474,1844,432,1844
+aem__free_volume,Free-volume-related descriptor,packing/accessibility,Fig. 3,16,0.17319773,1.8686935,1.8687346,0.099253731,0.34881474,1844,432,1844
+aem__free_volume,Free-volume-related descriptor,packing/accessibility,Fig. 3,17,0.17781923,1.8690947,1.8687346,0.099253731,0.34881474,1844,432,1844
+aem__free_volume,Free-volume-related descriptor,packing/accessibility,Fig. 3,18,0.18244073,1.8685742,1.8687346,0.099253731,0.34881474,1844,432,1844
+aem__free_volume,Free-volume-related descriptor,packing/accessibility,Fig. 3,19,0.18706223,1.8687346,1.8687346,0.099253731,0.34881474,1844,432,1844
+aem__free_volume,Free-volume-related descriptor,packing/accessibility,Fig. 3,20,0.19168373,1.8688878,1.8687346,0.099253731,0.34881474,1844,432,1844
+aem__free_volume,Free-volume-related descriptor,packing/accessibility,Fig. 3,21,0.19630523,1.8689616,1.8687346,0.099253731,0.34881474,1844,432,1844
+aem__free_volume,Free-volume-related descriptor,packing/accessibility,Fig. 3,22,0.20092673,1.8686269,1.8687346,0.099253731,0.34881474,1844,432,1844
+aem__free_volume,Free-volume-related descriptor,packing/accessibility,Fig. 3,23,0.20554823,1.8686269,1.8687346,0.099253731,0.34881474,1844,432,1844
+aem__free_volume,Free-volume-related descriptor,packing/accessibility,Fig. 3,24,0.21016973,1.8686269,1.8687346,0.099253731,0.34881474,1844,432,1844
+aem__free_volume,Free-volume-related descriptor,packing/accessibility,Fig. 3,25,0.21479123,1.8686269,1.8687346,0.099253731,0.34881474,1844,432,1844
+aem__free_volume,Free-volume-related descriptor,packing/accessibility,Fig. 3,26,0.21941273,1.8686269,1.8687346,0.099253731,0.34881474,1844,432,1844
+aem__free_volume,Free-volume-related descriptor,packing/accessibility,Fig. 3,27,0.22403423,1.8694881,1.8687346,0.099253731,0.34881474,1844,432,1844
+aem__free_volume,Free-volume-related descriptor,packing/accessibility,Fig. 3,28,0.22865573,1.8694881,1.8687346,0.099253731,0.34881474,1844,432,1844
+aem__free_volume,Free-volume-related descriptor,packing/accessibility,Fig. 3,29,0.23327723,1.8696336,1.8687346,0.099253731,0.34881474,1844,432,1844
+aem__free_volume,Free-volume-related descriptor,packing/accessibility,Fig. 3,30,0.23789873,1.8696336,1.8687346,0.099253731,0.34881474,1844,432,1844
+aem__free_volume,Free-volume-related descriptor,packing/accessibility,Fig. 3,31,0.24252023,1.8696336,1.8687346,0.099253731,0.34881474,1844,432,1844
+aem__free_volume,Free-volume-related descriptor,packing/accessibility,Fig. 3,32,0.24714173,1.8696336,1.8687346,0.099253731,0.34881474,1844,432,1844
+aem__free_volume,Free-volume-related descriptor,packing/accessibility,Fig. 3,33,0.25176323,1.8696336,1.8687346,0.099253731,0.34881474,1844,432,1844
+aem__free_volume,Free-volume-related descriptor,packing/accessibility,Fig. 3,34,0.25638473,1.8696336,1.8687346,0.099253731,0.34881474,1844,432,1844
+aem__free_volume,Free-volume-related descriptor,packing/accessibility,Fig. 3,35,0.26100623,1.8696336,1.8687346,0.099253731,0.34881474,1844,432,1844
+aem__free_volume,Free-volume-related descriptor,packing/accessibility,Fig. 3,36,0.26562774,1.8695859,1.8687346,0.099253731,0.34881474,1844,432,1844
+aem__free_volume,Free-volume-related descriptor,packing/accessibility,Fig. 3,37,0.27024924,1.8695859,1.8687346,0.099253731,0.34881474,1844,432,1844
+aem__free_volume,Free-volume-related descriptor,packing/accessibility,Fig. 3,38,0.27487074,1.8695859,1.8687346,0.099253731,0.34881474,1844,432,1844
+aem__free_volume,Free-volume-related descriptor,packing/accessibility,Fig. 3,39,0.27949224,1.8695859,1.8687346,0.099253731,0.34881474,1844,432,1844
+aem__free_volume,Free-volume-related descriptor,packing/accessibility,Fig. 3,40,0.28411374,1.8695859,1.8687346,0.099253731,0.34881474,1844,432,1844
+aem__free_volume,Free-volume-related descriptor,packing/accessibility,Fig. 3,41,0.28873524,1.8695859,1.8687346,0.099253731,0.34881474,1844,432,1844
+aem__free_volume,Free-volume-related descriptor,packing/accessibility,Fig. 3,42,0.29335674,1.8695859,1.8687346,0.099253731,0.34881474,1844,432,1844
+aem__free_volume,Free-volume-related descriptor,packing/accessibility,Fig. 3,43,0.29797824,1.8695859,1.8687346,0.099253731,0.34881474,1844,432,1844
+aem__free_volume,Free-volume-related descriptor,packing/accessibility,Fig. 3,44,0.30259974,1.8695859,1.8687346,0.099253731,0.34881474,1844,432,1844
+aem__free_volume,Free-volume-related descriptor,packing/accessibility,Fig. 3,45,0.30722124,1.8695859,1.8687346,0.099253731,0.34881474,1844,432,1844
+aem__free_volume,Free-volume-related descriptor,packing/accessibility,Fig. 3,46,0.31184274,1.8695859,1.8687346,0.099253731,0.34881474,1844,432,1844
+aem__free_volume,Free-volume-related descriptor,packing/accessibility,Fig. 3,47,0.31646424,1.8695859,1.8687346,0.099253731,0.34881474,1844,432,1844
+aem__free_volume,Free-volume-related descriptor,packing/accessibility,Fig. 3,48,0.32108574,1.8695859,1.8687346,0.099253731,0.34881474,1844,432,1844
+aem__free_volume,Free-volume-related descriptor,packing/accessibility,Fig. 3,49,0.32570724,1.8695859,1.8687346,0.099253731,0.34881474,1844,432,1844
+aem__free_volume,Free-volume-related descriptor,packing/accessibility,Fig. 3,50,0.33032874,1.8695859,1.8687346,0.099253731,0.34881474,1844,432,1844
+aem__free_volume,Free-volume-related descriptor,packing/accessibility,Fig. 3,51,0.33495024,1.8695859,1.8687346,0.099253731,0.34881474,1844,432,1844
+aem__free_volume,Free-volume-related descriptor,packing/accessibility,Fig. 3,52,0.33957174,1.8695859,1.8687346,0.099253731,0.34881474,1844,432,1844
+aem__free_volume,Free-volume-related descriptor,packing/accessibility,Fig. 3,53,0.34419324,1.8695859,1.8687346,0.099253731,0.34881474,1844,432,1844
+aem__free_volume,Free-volume-related descriptor,packing/accessibility,Fig. 3,54,0.34881474,1.8695859,1.8687346,0.099253731,0.34881474,1844,432,1844
+aem__cation_to_aromatic_distance_mean,Cation-to-aromatic distance,cation exposure,Fig. S6,0,0.25,1.86161,1.8687346,0.25,8,1884,189,1884
+aem__cation_to_aromatic_distance_mean,Cation-to-aromatic distance,cation exposure,Fig. S6,1,0.39351852,1.86161,1.8687346,0.25,8,1884,189,1884
+aem__cation_to_aromatic_distance_mean,Cation-to-aromatic distance,cation exposure,Fig. S6,2,0.53703704,1.86161,1.8687346,0.25,8,1884,189,1884
+aem__cation_to_aromatic_distance_mean,Cation-to-aromatic distance,cation exposure,Fig. S6,3,0.68055556,1.86161,1.8687346,0.25,8,1884,189,1884
+aem__cation_to_aromatic_distance_mean,Cation-to-aromatic distance,cation exposure,Fig. S6,4,0.82407407,1.8624507,1.8687346,0.25,8,1884,189,1884
+aem__cation_to_aromatic_distance_mean,Cation-to-aromatic distance,cation exposure,Fig. S6,5,0.96759259,1.8624507,1.8687346,0.25,8,1884,189,1884
+aem__cation_to_aromatic_distance_mean,Cation-to-aromatic distance,cation exposure,Fig. S6,6,1.1111111,1.8664041,1.8687346,0.25,8,1884,189,1884
+aem__cation_to_aromatic_distance_mean,Cation-to-aromatic distance,cation exposure,Fig. S6,7,1.2546296,1.8685259,1.8687346,0.25,8,1884,189,1884
+aem__cation_to_aromatic_distance_mean,Cation-to-aromatic distance,cation exposure,Fig. S6,8,1.3981481,1.8685259,1.8687346,0.25,8,1884,189,1884
+aem__cation_to_aromatic_distance_mean,Cation-to-aromatic distance,cation exposure,Fig. S6,9,1.5416667,1.8685259,1.8687346,0.25,8,1884,189,1884
+aem__cation_to_aromatic_distance_mean,Cation-to-aromatic distance,cation exposure,Fig. S6,10,1.6851852,1.8685022,1.8687346,0.25,8,1884,189,1884
+aem__cation_to_aromatic_distance_mean,Cation-to-aromatic distance,cation exposure,Fig. S6,11,1.8287037,1.8685022,1.8687346,0.25,8,1884,189,1884
+aem__cation_to_aromatic_distance_mean,Cation-to-aromatic distance,cation exposure,Fig. S6,12,1.9722222,1.8685022,1.8687346,0.25,8,1884,189,1884
+aem__cation_to_aromatic_distance_mean,Cation-to-aromatic distance,cation exposure,Fig. S6,13,2.1157407,1.8685022,1.8687346,0.25,8,1884,189,1884
+aem__cation_to_aromatic_distance_mean,Cation-to-aromatic distance,cation exposure,Fig. S6,14,2.2592593,1.8685022,1.8687346,0.25,8,1884,189,1884
+aem__cation_to_aromatic_distance_mean,Cation-to-aromatic distance,cation exposure,Fig. S6,15,2.4027778,1.8687475,1.8687346,0.25,8,1884,189,1884
+aem__cation_to_aromatic_distance_mean,Cation-to-aromatic distance,cation exposure,Fig. S6,16,2.5462963,1.8687475,1.8687346,0.25,8,1884,189,1884
+aem__cation_to_aromatic_distance_mean,Cation-to-aromatic distance,cation exposure,Fig. S6,17,2.6898148,1.8687475,1.8687346,0.25,8,1884,189,1884
+aem__cation_to_aromatic_distance_mean,Cation-to-aromatic distance,cation exposure,Fig. S6,18,2.8333333,1.8687475,1.8687346,0.25,8,1884,189,1884
+aem__cation_to_aromatic_distance_mean,Cation-to-aromatic distance,cation exposure,Fig. S6,19,2.9768519,1.8687346,1.8687346,0.25,8,1884,189,1884
+aem__cation_to_aromatic_distance_mean,Cation-to-aromatic distance,cation exposure,Fig. S6,20,3.1203704,1.8687346,1.8687346,0.25,8,1884,189,1884
+aem__cation_to_aromatic_distance_mean,Cation-to-aromatic distance,cation exposure,Fig. S6,21,3.2638889,1.8687346,1.8687346,0.25,8,1884,189,1884
+aem__cation_to_aromatic_distance_mean,Cation-to-aromatic distance,cation exposure,Fig. S6,22,3.4074074,1.868769,1.8687346,0.25,8,1884,189,1884
+aem__cation_to_aromatic_distance_mean,Cation-to-aromatic distance,cation exposure,Fig. S6,23,3.5509259,1.868769,1.8687346,0.25,8,1884,189,1884
+aem__cation_to_aromatic_distance_mean,Cation-to-aromatic distance,cation exposure,Fig. S6,24,3.6944444,1.8677757,1.8687346,0.25,8,1884,189,1884
+aem__cation_to_aromatic_distance_mean,Cation-to-aromatic distance,cation exposure,Fig. S6,25,3.837963,1.8706873,1.8687346,0.25,8,1884,189,1884
+aem__cation_to_aromatic_distance_mean,Cation-to-aromatic distance,cation exposure,Fig. S6,26,3.9814815,1.8705859,1.8687346,0.25,8,1884,189,1884
+aem__cation_to_aromatic_distance_mean,Cation-to-aromatic distance,cation exposure,Fig. S6,27,4.125,1.8705859,1.8687346,0.25,8,1884,189,1884
+aem__cation_to_aromatic_distance_mean,Cation-to-aromatic distance,cation exposure,Fig. S6,28,4.2685185,1.8705859,1.8687346,0.25,8,1884,189,1884
+aem__cation_to_aromatic_distance_mean,Cation-to-aromatic distance,cation exposure,Fig. S6,29,4.412037,1.8705859,1.8687346,0.25,8,1884,189,1884
+aem__cation_to_aromatic_distance_mean,Cation-to-aromatic distance,cation exposure,Fig. S6,30,4.5555556,1.8705859,1.8687346,0.25,8,1884,189,1884
+aem__cation_to_aromatic_distance_mean,Cation-to-aromatic distance,cation exposure,Fig. S6,31,4.6990741,1.8705859,1.8687346,0.25,8,1884,189,1884
+aem__cation_to_aromatic_distance_mean,Cation-to-aromatic distance,cation exposure,Fig. S6,32,4.8425926,1.8705859,1.8687346,0.25,8,1884,189,1884
+aem__cation_to_aromatic_distance_mean,Cation-to-aromatic distance,cation exposure,Fig. S6,33,4.9861111,1.8705859,1.8687346,0.25,8,1884,189,1884
+aem__cation_to_aromatic_distance_mean,Cation-to-aromatic distance,cation exposure,Fig. S6,34,5.1296296,1.8705859,1.8687346,0.25,8,1884,189,1884
+aem__cation_to_aromatic_distance_mean,Cation-to-aromatic distance,cation exposure,Fig. S6,35,5.2731481,1.8705859,1.8687346,0.25,8,1884,189,1884
+aem__cation_to_aromatic_distance_mean,Cation-to-aromatic distance,cation exposure,Fig. S6,36,5.4166667,1.8698314,1.8687346,0.25,8,1884,189,1884
+aem__cation_to_aromatic_distance_mean,Cation-to-aromatic distance,cation exposure,Fig. S6,37,5.5601852,1.8698314,1.8687346,0.25,8,1884,189,1884
+aem__cation_to_aromatic_distance_mean,Cation-to-aromatic distance,cation exposure,Fig. S6,38,5.7037037,1.8698314,1.8687346,0.25,8,1884,189,1884
+aem__cation_to_aromatic_distance_mean,Cation-to-aromatic distance,cation exposure,Fig. S6,39,5.8472222,1.8698314,1.8687346,0.25,8,1884,189,1884
+aem__cation_to_aromatic_distance_mean,Cation-to-aromatic distance,cation exposure,Fig. S6,40,5.9907407,1.8698314,1.8687346,0.25,8,1884,189,1884
+aem__cation_to_aromatic_distance_mean,Cation-to-aromatic distance,cation exposure,Fig. S6,41,6.1342593,1.8698314,1.8687346,0.25,8,1884,189,1884
+aem__cation_to_aromatic_distance_mean,Cation-to-aromatic distance,cation exposure,Fig. S6,42,6.2777778,1.8698314,1.8687346,0.25,8,1884,189,1884
+aem__cation_to_aromatic_distance_mean,Cation-to-aromatic distance,cation exposure,Fig. S6,43,6.4212963,1.8698314,1.8687346,0.25,8,1884,189,1884
+aem__cation_to_aromatic_distance_mean,Cation-to-aromatic distance,cation exposure,Fig. S6,44,6.5648148,1.8698314,1.8687346,0.25,8,1884,189,1884
+aem__cation_to_aromatic_distance_mean,Cation-to-aromatic distance,cation exposure,Fig. S6,45,6.7083333,1.8698314,1.8687346,0.25,8,1884,189,1884
+aem__cation_to_aromatic_distance_mean,Cation-to-aromatic distance,cation exposure,Fig. S6,46,6.8518519,1.8698314,1.8687346,0.25,8,1884,189,1884
+aem__cation_to_aromatic_distance_mean,Cation-to-aromatic distance,cation exposure,Fig. S6,47,6.9953704,1.8698314,1.8687346,0.25,8,1884,189,1884
+aem__cation_to_aromatic_distance_mean,Cation-to-aromatic distance,cation exposure,Fig. S6,48,7.1388889,1.8706817,1.8687346,0.25,8,1884,189,1884
+aem__cation_to_aromatic_distance_mean,Cation-to-aromatic distance,cation exposure,Fig. S6,49,7.2824074,1.8706817,1.8687346,0.25,8,1884,189,1884
+aem__cation_to_aromatic_distance_mean,Cation-to-aromatic distance,cation exposure,Fig. S6,50,7.4259259,1.8706817,1.8687346,0.25,8,1884,189,1884
+aem__cation_to_aromatic_distance_mean,Cation-to-aromatic distance,cation exposure,Fig. S6,51,7.5694444,1.8706817,1.8687346,0.25,8,1884,189,1884
+aem__cation_to_aromatic_distance_mean,Cation-to-aromatic distance,cation exposure,Fig. S6,52,7.712963,1.8706817,1.8687346,0.25,8,1884,189,1884
+aem__cation_to_aromatic_distance_mean,Cation-to-aromatic distance,cation exposure,Fig. S6,53,7.8564815,1.8706817,1.8687346,0.25,8,1884,189,1884
+aem__cation_to_aromatic_distance_mean,Cation-to-aromatic distance,cation exposure,Fig. S6,54,8,1.8706817,1.8687346,0.25,8,1884,189,1884
+aem__transport_heterogeneity,Transport heterogeneity,transport balance,Fig. S6,0,0,1.8646625,1.8687346,0,0.40135949,1951,377,1951
+aem__transport_heterogeneity,Transport heterogeneity,transport balance,Fig. S6,1,0.0074325832,1.8685514,1.8687346,0,0.40135949,1951,377,1951
+aem__transport_heterogeneity,Transport heterogeneity,transport balance,Fig. S6,2,0.014865166,1.8685077,1.8687346,0,0.40135949,1951,377,1951
+aem__transport_heterogeneity,Transport heterogeneity,transport balance,Fig. S6,3,0.022297749,1.8683143,1.8687346,0,0.40135949,1951,377,1951
+aem__transport_heterogeneity,Transport heterogeneity,transport balance,Fig. S6,4,0.029730333,1.8683143,1.8687346,0,0.40135949,1951,377,1951
+aem__transport_heterogeneity,Transport heterogeneity,transport balance,Fig. S6,5,0.037162916,1.8683143,1.8687346,0,0.40135949,1951,377,1951
+aem__transport_heterogeneity,Transport heterogeneity,transport balance,Fig. S6,6,0.044595499,1.8683143,1.8687346,0,0.40135949,1951,377,1951
+aem__transport_heterogeneity,Transport heterogeneity,transport balance,Fig. S6,7,0.052028082,1.8683143,1.8687346,0,0.40135949,1951,377,1951
+aem__transport_heterogeneity,Transport heterogeneity,transport balance,Fig. S6,8,0.059460665,1.8683143,1.8687346,0,0.40135949,1951,377,1951
+aem__transport_heterogeneity,Transport heterogeneity,transport balance,Fig. S6,9,0.066893248,1.8683143,1.8687346,0,0.40135949,1951,377,1951
+aem__transport_heterogeneity,Transport heterogeneity,transport balance,Fig. S6,10,0.074325832,1.8683143,1.8687346,0,0.40135949,1951,377,1951
+aem__transport_heterogeneity,Transport heterogeneity,transport balance,Fig. S6,11,0.081758415,1.8683143,1.8687346,0,0.40135949,1951,377,1951
+aem__transport_heterogeneity,Transport heterogeneity,transport balance,Fig. S6,12,0.089190998,1.8683143,1.8687346,0,0.40135949,1951,377,1951
+aem__transport_heterogeneity,Transport heterogeneity,transport balance,Fig. S6,13,0.096623581,1.8683143,1.8687346,0,0.40135949,1951,377,1951
+aem__transport_heterogeneity,Transport heterogeneity,transport balance,Fig. S6,14,0.10405616,1.8687346,1.8687346,0,0.40135949,1951,377,1951
+aem__transport_heterogeneity,Transport heterogeneity,transport balance,Fig. S6,15,0.11148875,1.8687346,1.8687346,0,0.40135949,1951,377,1951
+aem__transport_heterogeneity,Transport heterogeneity,transport balance,Fig. S6,16,0.11892133,1.8687346,1.8687346,0,0.40135949,1951,377,1951
+aem__transport_heterogeneity,Transport heterogeneity,transport balance,Fig. S6,17,0.12635391,1.8687346,1.8687346,0,0.40135949,1951,377,1951
+aem__transport_heterogeneity,Transport heterogeneity,transport balance,Fig. S6,18,0.1337865,1.8687346,1.8687346,0,0.40135949,1951,377,1951
+aem__transport_heterogeneity,Transport heterogeneity,transport balance,Fig. S6,19,0.14121908,1.8687346,1.8687346,0,0.40135949,1951,377,1951
+aem__transport_heterogeneity,Transport heterogeneity,transport balance,Fig. S6,20,0.14865166,1.8687346,1.8687346,0,0.40135949,1951,377,1951
+aem__transport_heterogeneity,Transport heterogeneity,transport balance,Fig. S6,21,0.15608425,1.8687346,1.8687346,0,0.40135949,1951,377,1951
+aem__transport_heterogeneity,Transport heterogeneity,transport balance,Fig. S6,22,0.16351683,1.8687346,1.8687346,0,0.40135949,1951,377,1951
+aem__transport_heterogeneity,Transport heterogeneity,transport balance,Fig. S6,23,0.17094941,1.8687346,1.8687346,0,0.40135949,1951,377,1951
+aem__transport_heterogeneity,Transport heterogeneity,transport balance,Fig. S6,24,0.178382,1.8687346,1.8687346,0,0.40135949,1951,377,1951
+aem__transport_heterogeneity,Transport heterogeneity,transport balance,Fig. S6,25,0.18581458,1.8687346,1.8687346,0,0.40135949,1951,377,1951
+aem__transport_heterogeneity,Transport heterogeneity,transport balance,Fig. S6,26,0.19324716,1.8715962,1.8687346,0,0.40135949,1951,377,1951
+aem__transport_heterogeneity,Transport heterogeneity,transport balance,Fig. S6,27,0.20067975,1.8715962,1.8687346,0,0.40135949,1951,377,1951
+aem__transport_heterogeneity,Transport heterogeneity,transport balance,Fig. S6,28,0.20811233,1.8715962,1.8687346,0,0.40135949,1951,377,1951
+aem__transport_heterogeneity,Transport heterogeneity,transport balance,Fig. S6,29,0.21554491,1.8715962,1.8687346,0,0.40135949,1951,377,1951
+aem__transport_heterogeneity,Transport heterogeneity,transport balance,Fig. S6,30,0.22297749,1.8718299,1.8687346,0,0.40135949,1951,377,1951
+aem__transport_heterogeneity,Transport heterogeneity,transport balance,Fig. S6,31,0.23041008,1.8718299,1.8687346,0,0.40135949,1951,377,1951
+aem__transport_heterogeneity,Transport heterogeneity,transport balance,Fig. S6,32,0.23784266,1.8718299,1.8687346,0,0.40135949,1951,377,1951
+aem__transport_heterogeneity,Transport heterogeneity,transport balance,Fig. S6,33,0.24527524,1.8718299,1.8687346,0,0.40135949,1951,377,1951
+aem__transport_heterogeneity,Transport heterogeneity,transport balance,Fig. S6,34,0.25270783,1.8718299,1.8687346,0,0.40135949,1951,377,1951
+aem__transport_heterogeneity,Transport heterogeneity,transport balance,Fig. S6,35,0.26014041,1.8718299,1.8687346,0,0.40135949,1951,377,1951
+aem__transport_heterogeneity,Transport heterogeneity,transport balance,Fig. S6,36,0.26757299,1.8718299,1.8687346,0,0.40135949,1951,377,1951
+aem__transport_heterogeneity,Transport heterogeneity,transport balance,Fig. S6,37,0.27500558,1.8719366,1.8687346,0,0.40135949,1951,377,1951
+aem__transport_heterogeneity,Transport heterogeneity,transport balance,Fig. S6,38,0.28243816,1.8719366,1.8687346,0,0.40135949,1951,377,1951
+aem__transport_heterogeneity,Transport heterogeneity,transport balance,Fig. S6,39,0.28987074,1.8719366,1.8687346,0,0.40135949,1951,377,1951
+aem__transport_heterogeneity,Transport heterogeneity,transport balance,Fig. S6,40,0.29730333,1.8719366,1.8687346,0,0.40135949,1951,377,1951
+aem__transport_heterogeneity,Transport heterogeneity,transport balance,Fig. S6,41,0.30473591,1.8719366,1.8687346,0,0.40135949,1951,377,1951
+aem__transport_heterogeneity,Transport heterogeneity,transport balance,Fig. S6,42,0.31216849,1.8719366,1.8687346,0,0.40135949,1951,377,1951
+aem__transport_heterogeneity,Transport heterogeneity,transport balance,Fig. S6,43,0.31960108,1.8719366,1.8687346,0,0.40135949,1951,377,1951
+aem__transport_heterogeneity,Transport heterogeneity,transport balance,Fig. S6,44,0.32703366,1.8719366,1.8687346,0,0.40135949,1951,377,1951
+aem__transport_heterogeneity,Transport heterogeneity,transport balance,Fig. S6,45,0.33446624,1.8719366,1.8687346,0,0.40135949,1951,377,1951
+aem__transport_heterogeneity,Transport heterogeneity,transport balance,Fig. S6,46,0.34189883,1.8719366,1.8687346,0,0.40135949,1951,377,1951
+aem__transport_heterogeneity,Transport heterogeneity,transport balance,Fig. S6,47,0.34933141,1.8719366,1.8687346,0,0.40135949,1951,377,1951
+aem__transport_heterogeneity,Transport heterogeneity,transport balance,Fig. S6,48,0.35676399,1.8719366,1.8687346,0,0.40135949,1951,377,1951
+aem__transport_heterogeneity,Transport heterogeneity,transport balance,Fig. S6,49,0.36419657,1.8719366,1.8687346,0,0.40135949,1951,377,1951
+aem__transport_heterogeneity,Transport heterogeneity,transport balance,Fig. S6,50,0.37162916,1.8719366,1.8687346,0,0.40135949,1951,377,1951
+aem__transport_heterogeneity,Transport heterogeneity,transport balance,Fig. S6,51,0.37906174,1.8719366,1.8687346,0,0.40135949,1951,377,1951
+aem__transport_heterogeneity,Transport heterogeneity,transport balance,Fig. S6,52,0.38649432,1.8719366,1.8687346,0,0.40135949,1951,377,1951
+aem__transport_heterogeneity,Transport heterogeneity,transport balance,Fig. S6,53,0.39392691,1.8705015,1.8687346,0,0.40135949,1951,377,1951
+aem__transport_heterogeneity,Transport heterogeneity,transport balance,Fig. S6,54,0.40135949,1.8705015,1.8687346,0,0.40135949,1951,377,1951
+aem__sidechain_flexibility,Side-chain flexibility descriptor,rigidity/flexibility,Fig. S6,0,0.10305263,1.8658047,1.8687346,0.10305263,0.38333333,1846,418,1846
+aem__sidechain_flexibility,Side-chain flexibility descriptor,rigidity/flexibility,Fig. S6,1,0.10824301,1.8653895,1.8687346,0.10305263,0.38333333,1846,418,1846
+aem__sidechain_flexibility,Side-chain flexibility descriptor,rigidity/flexibility,Fig. S6,2,0.1134334,1.865951,1.8687346,0.10305263,0.38333333,1846,418,1846
+aem__sidechain_flexibility,Side-chain flexibility descriptor,rigidity/flexibility,Fig. S6,3,0.11862378,1.8657145,1.8687346,0.10305263,0.38333333,1846,418,1846
+aem__sidechain_flexibility,Side-chain flexibility descriptor,rigidity/flexibility,Fig. S6,4,0.12381417,1.8689214,1.8687346,0.10305263,0.38333333,1846,418,1846
+aem__sidechain_flexibility,Side-chain flexibility descriptor,rigidity/flexibility,Fig. S6,5,0.12900455,1.8692828,1.8687346,0.10305263,0.38333333,1846,418,1846
+aem__sidechain_flexibility,Side-chain flexibility descriptor,rigidity/flexibility,Fig. S6,6,0.13419493,1.8693294,1.8687346,0.10305263,0.38333333,1846,418,1846
+aem__sidechain_flexibility,Side-chain flexibility descriptor,rigidity/flexibility,Fig. S6,7,0.13938532,1.8680533,1.8687346,0.10305263,0.38333333,1846,418,1846
+aem__sidechain_flexibility,Side-chain flexibility descriptor,rigidity/flexibility,Fig. S6,8,0.1445757,1.8687738,1.8687346,0.10305263,0.38333333,1846,418,1846
+aem__sidechain_flexibility,Side-chain flexibility descriptor,rigidity/flexibility,Fig. S6,9,0.14976608,1.8682841,1.8687346,0.10305263,0.38333333,1846,418,1846
+aem__sidechain_flexibility,Side-chain flexibility descriptor,rigidity/flexibility,Fig. S6,10,0.15495647,1.8677351,1.8687346,0.10305263,0.38333333,1846,418,1846
+aem__sidechain_flexibility,Side-chain flexibility descriptor,rigidity/flexibility,Fig. S6,11,0.16014685,1.8678899,1.8687346,0.10305263,0.38333333,1846,418,1846
+aem__sidechain_flexibility,Side-chain flexibility descriptor,rigidity/flexibility,Fig. S6,12,0.16533723,1.8678899,1.8687346,0.10305263,0.38333333,1846,418,1846
+aem__sidechain_flexibility,Side-chain flexibility descriptor,rigidity/flexibility,Fig. S6,13,0.17052762,1.8678729,1.8687346,0.10305263,0.38333333,1846,418,1846
+aem__sidechain_flexibility,Side-chain flexibility descriptor,rigidity/flexibility,Fig. S6,14,0.175718,1.8678729,1.8687346,0.10305263,0.38333333,1846,418,1846
+aem__sidechain_flexibility,Side-chain flexibility descriptor,rigidity/flexibility,Fig. S6,15,0.18090838,1.8678729,1.8687346,0.10305263,0.38333333,1846,418,1846
+aem__sidechain_flexibility,Side-chain flexibility descriptor,rigidity/flexibility,Fig. S6,16,0.18609877,1.8680129,1.8687346,0.10305263,0.38333333,1846,418,1846
+aem__sidechain_flexibility,Side-chain flexibility descriptor,rigidity/flexibility,Fig. S6,17,0.19128915,1.8680129,1.8687346,0.10305263,0.38333333,1846,418,1846
+aem__sidechain_flexibility,Side-chain flexibility descriptor,rigidity/flexibility,Fig. S6,18,0.19647953,1.8674245,1.8687346,0.10305263,0.38333333,1846,418,1846
+aem__sidechain_flexibility,Side-chain flexibility descriptor,rigidity/flexibility,Fig. S6,19,0.20166992,1.8687346,1.8687346,0.10305263,0.38333333,1846,418,1846
+aem__sidechain_flexibility,Side-chain flexibility descriptor,rigidity/flexibility,Fig. S6,20,0.2068603,1.8687346,1.8687346,0.10305263,0.38333333,1846,418,1846
+aem__sidechain_flexibility,Side-chain flexibility descriptor,rigidity/flexibility,Fig. S6,21,0.21205068,1.8687346,1.8687346,0.10305263,0.38333333,1846,418,1846
+aem__sidechain_flexibility,Side-chain flexibility descriptor,rigidity/flexibility,Fig. S6,22,0.21724107,1.8686147,1.8687346,0.10305263,0.38333333,1846,418,1846
+aem__sidechain_flexibility,Side-chain flexibility descriptor,rigidity/flexibility,Fig. S6,23,0.22243145,1.8688268,1.8687346,0.10305263,0.38333333,1846,418,1846
+aem__sidechain_flexibility,Side-chain flexibility descriptor,rigidity/flexibility,Fig. S6,24,0.22762183,1.8688268,1.8687346,0.10305263,0.38333333,1846,418,1846
+aem__sidechain_flexibility,Side-chain flexibility descriptor,rigidity/flexibility,Fig. S6,25,0.23281222,1.8688268,1.8687346,0.10305263,0.38333333,1846,418,1846
+aem__sidechain_flexibility,Side-chain flexibility descriptor,rigidity/flexibility,Fig. S6,26,0.2380026,1.8693267,1.8687346,0.10305263,0.38333333,1846,418,1846
+aem__sidechain_flexibility,Side-chain flexibility descriptor,rigidity/flexibility,Fig. S6,27,0.24319298,1.8697161,1.8687346,0.10305263,0.38333333,1846,418,1846
+aem__sidechain_flexibility,Side-chain flexibility descriptor,rigidity/flexibility,Fig. S6,28,0.24838337,1.8697161,1.8687346,0.10305263,0.38333333,1846,418,1846
+aem__sidechain_flexibility,Side-chain flexibility descriptor,rigidity/flexibility,Fig. S6,29,0.25357375,1.8697161,1.8687346,0.10305263,0.38333333,1846,418,1846
+aem__sidechain_flexibility,Side-chain flexibility descriptor,rigidity/flexibility,Fig. S6,30,0.25876413,1.8678789,1.8687346,0.10305263,0.38333333,1846,418,1846
+aem__sidechain_flexibility,Side-chain flexibility descriptor,rigidity/flexibility,Fig. S6,31,0.26395452,1.8671071,1.8687346,0.10305263,0.38333333,1846,418,1846
+aem__sidechain_flexibility,Side-chain flexibility descriptor,rigidity/flexibility,Fig. S6,32,0.2691449,1.8671071,1.8687346,0.10305263,0.38333333,1846,418,1846
+aem__sidechain_flexibility,Side-chain flexibility descriptor,rigidity/flexibility,Fig. S6,33,0.27433528,1.8671071,1.8687346,0.10305263,0.38333333,1846,418,1846
+aem__sidechain_flexibility,Side-chain flexibility descriptor,rigidity/flexibility,Fig. S6,34,0.27952567,1.8681566,1.8687346,0.10305263,0.38333333,1846,418,1846
+aem__sidechain_flexibility,Side-chain flexibility descriptor,rigidity/flexibility,Fig. S6,35,0.28471605,1.8681566,1.8687346,0.10305263,0.38333333,1846,418,1846
+aem__sidechain_flexibility,Side-chain flexibility descriptor,rigidity/flexibility,Fig. S6,36,0.28990643,1.8681566,1.8687346,0.10305263,0.38333333,1846,418,1846
+aem__sidechain_flexibility,Side-chain flexibility descriptor,rigidity/flexibility,Fig. S6,37,0.29509682,1.8681657,1.8687346,0.10305263,0.38333333,1846,418,1846
+aem__sidechain_flexibility,Side-chain flexibility descriptor,rigidity/flexibility,Fig. S6,38,0.3002872,1.8681657,1.8687346,0.10305263,0.38333333,1846,418,1846
+aem__sidechain_flexibility,Side-chain flexibility descriptor,rigidity/flexibility,Fig. S6,39,0.30547758,1.8681657,1.8687346,0.10305263,0.38333333,1846,418,1846
+aem__sidechain_flexibility,Side-chain flexibility descriptor,rigidity/flexibility,Fig. S6,40,0.31066797,1.8681657,1.8687346,0.10305263,0.38333333,1846,418,1846
+aem__sidechain_flexibility,Side-chain flexibility descriptor,rigidity/flexibility,Fig. S6,41,0.31585835,1.8681657,1.8687346,0.10305263,0.38333333,1846,418,1846
+aem__sidechain_flexibility,Side-chain flexibility descriptor,rigidity/flexibility,Fig. S6,42,0.32104873,1.8681657,1.8687346,0.10305263,0.38333333,1846,418,1846
+aem__sidechain_flexibility,Side-chain flexibility descriptor,rigidity/flexibility,Fig. S6,43,0.32623912,1.8681657,1.8687346,0.10305263,0.38333333,1846,418,1846
+aem__sidechain_flexibility,Side-chain flexibility descriptor,rigidity/flexibility,Fig. S6,44,0.3314295,1.8681657,1.8687346,0.10305263,0.38333333,1846,418,1846
+aem__sidechain_flexibility,Side-chain flexibility descriptor,rigidity/flexibility,Fig. S6,45,0.33661988,1.8681657,1.8687346,0.10305263,0.38333333,1846,418,1846
+aem__sidechain_flexibility,Side-chain flexibility descriptor,rigidity/flexibility,Fig. S6,46,0.34181027,1.8680888,1.8687346,0.10305263,0.38333333,1846,418,1846
+aem__sidechain_flexibility,Side-chain flexibility descriptor,rigidity/flexibility,Fig. S6,47,0.34700065,1.8680888,1.8687346,0.10305263,0.38333333,1846,418,1846
+aem__sidechain_flexibility,Side-chain flexibility descriptor,rigidity/flexibility,Fig. S6,48,0.35219103,1.8680888,1.8687346,0.10305263,0.38333333,1846,418,1846
+aem__sidechain_flexibility,Side-chain flexibility descriptor,rigidity/flexibility,Fig. S6,49,0.35738142,1.8680888,1.8687346,0.10305263,0.38333333,1846,418,1846
+aem__sidechain_flexibility,Side-chain flexibility descriptor,rigidity/flexibility,Fig. S6,50,0.3625718,1.8680888,1.8687346,0.10305263,0.38333333,1846,418,1846
+aem__sidechain_flexibility,Side-chain flexibility descriptor,rigidity/flexibility,Fig. S6,51,0.36776218,1.8680888,1.8687346,0.10305263,0.38333333,1846,418,1846
+aem__sidechain_flexibility,Side-chain flexibility descriptor,rigidity/flexibility,Fig. S6,52,0.37295257,1.8677858,1.8687346,0.10305263,0.38333333,1846,418,1846
+aem__sidechain_flexibility,Side-chain flexibility descriptor,rigidity/flexibility,Fig. S6,53,0.37814295,1.8680634,1.8687346,0.10305263,0.38333333,1846,418,1846
+aem__sidechain_flexibility,Side-chain flexibility descriptor,rigidity/flexibility,Fig. S6,54,0.38333333,1.8680634,1.8687346,0.10305263,0.38333333,1846,418,1846
+aem__backbone_rigidity,Backbone rigidity descriptor,rigidity/flexibility,Fig. S6,0,0.44861538,1.8705503,1.8687346,0.44861538,2.3,1853,360,1853
+aem__backbone_rigidity,Backbone rigidity descriptor,rigidity/flexibility,Fig. S6,1,0.48290028,1.8705503,1.8687346,0.44861538,2.3,1853,360,1853
+aem__backbone_rigidity,Backbone rigidity descriptor,rigidity/flexibility,Fig. S6,2,0.51718519,1.8705503,1.8687346,0.44861538,2.3,1853,360,1853
+aem__backbone_rigidity,Backbone rigidity descriptor,rigidity/flexibility,Fig. S6,3,0.55147009,1.8705503,1.8687346,0.44861538,2.3,1853,360,1853
+aem__backbone_rigidity,Backbone rigidity descriptor,rigidity/flexibility,Fig. S6,4,0.58575499,1.8691364,1.8687346,0.44861538,2.3,1853,360,1853
+aem__backbone_rigidity,Backbone rigidity descriptor,rigidity/flexibility,Fig. S6,5,0.62003989,1.8691364,1.8687346,0.44861538,2.3,1853,360,1853
+aem__backbone_rigidity,Backbone rigidity descriptor,rigidity/flexibility,Fig. S6,6,0.65432479,1.8691364,1.8687346,0.44861538,2.3,1853,360,1853
+aem__backbone_rigidity,Backbone rigidity descriptor,rigidity/flexibility,Fig. S6,7,0.68860969,1.8691364,1.8687346,0.44861538,2.3,1853,360,1853
+aem__backbone_rigidity,Backbone rigidity descriptor,rigidity/flexibility,Fig. S6,8,0.72289459,1.8691364,1.8687346,0.44861538,2.3,1853,360,1853
+aem__backbone_rigidity,Backbone rigidity descriptor,rigidity/flexibility,Fig. S6,9,0.75717949,1.8691364,1.8687346,0.44861538,2.3,1853,360,1853
+aem__backbone_rigidity,Backbone rigidity descriptor,rigidity/flexibility,Fig. S6,10,0.79146439,1.8691364,1.8687346,0.44861538,2.3,1853,360,1853
+aem__backbone_rigidity,Backbone rigidity descriptor,rigidity/flexibility,Fig. S6,11,0.82574929,1.8691364,1.8687346,0.44861538,2.3,1853,360,1853
+aem__backbone_rigidity,Backbone rigidity descriptor,rigidity/flexibility,Fig. S6,12,0.86003419,1.8691364,1.8687346,0.44861538,2.3,1853,360,1853
+aem__backbone_rigidity,Backbone rigidity descriptor,rigidity/flexibility,Fig. S6,13,0.89431909,1.8691364,1.8687346,0.44861538,2.3,1853,360,1853
+aem__backbone_rigidity,Backbone rigidity descriptor,rigidity/flexibility,Fig. S6,14,0.92860399,1.8691364,1.8687346,0.44861538,2.3,1853,360,1853
+aem__backbone_rigidity,Backbone rigidity descriptor,rigidity/flexibility,Fig. S6,15,0.96288889,1.8691364,1.8687346,0.44861538,2.3,1853,360,1853
+aem__backbone_rigidity,Backbone rigidity descriptor,rigidity/flexibility,Fig. S6,16,0.99717379,1.8683699,1.8687346,0.44861538,2.3,1853,360,1853
+aem__backbone_rigidity,Backbone rigidity descriptor,rigidity/flexibility,Fig. S6,17,1.0314587,1.8683699,1.8687346,0.44861538,2.3,1853,360,1853
+aem__backbone_rigidity,Backbone rigidity descriptor,rigidity/flexibility,Fig. S6,18,1.0657436,1.8683699,1.8687346,0.44861538,2.3,1853,360,1853
+aem__backbone_rigidity,Backbone rigidity descriptor,rigidity/flexibility,Fig. S6,19,1.1000285,1.8685499,1.8687346,0.44861538,2.3,1853,360,1853
+aem__backbone_rigidity,Backbone rigidity descriptor,rigidity/flexibility,Fig. S6,20,1.1343134,1.8685499,1.8687346,0.44861538,2.3,1853,360,1853
+aem__backbone_rigidity,Backbone rigidity descriptor,rigidity/flexibility,Fig. S6,21,1.1685983,1.8687346,1.8687346,0.44861538,2.3,1853,360,1853
+aem__backbone_rigidity,Backbone rigidity descriptor,rigidity/flexibility,Fig. S6,22,1.2028832,1.8687346,1.8687346,0.44861538,2.3,1853,360,1853
+aem__backbone_rigidity,Backbone rigidity descriptor,rigidity/flexibility,Fig. S6,23,1.2371681,1.8687346,1.8687346,0.44861538,2.3,1853,360,1853
+aem__backbone_rigidity,Backbone rigidity descriptor,rigidity/flexibility,Fig. S6,24,1.271453,1.8690577,1.8687346,0.44861538,2.3,1853,360,1853
+aem__backbone_rigidity,Backbone rigidity descriptor,rigidity/flexibility,Fig. S6,25,1.3057379,1.8690034,1.8687346,0.44861538,2.3,1853,360,1853
+aem__backbone_rigidity,Backbone rigidity descriptor,rigidity/flexibility,Fig. S6,26,1.3400228,1.8690382,1.8687346,0.44861538,2.3,1853,360,1853
+aem__backbone_rigidity,Backbone rigidity descriptor,rigidity/flexibility,Fig. S6,27,1.3743077,1.8690382,1.8687346,0.44861538,2.3,1853,360,1853
+aem__backbone_rigidity,Backbone rigidity descriptor,rigidity/flexibility,Fig. S6,28,1.4085926,1.8690315,1.8687346,0.44861538,2.3,1853,360,1853
+aem__backbone_rigidity,Backbone rigidity descriptor,rigidity/flexibility,Fig. S6,29,1.4428775,1.8684607,1.8687346,0.44861538,2.3,1853,360,1853
+aem__backbone_rigidity,Backbone rigidity descriptor,rigidity/flexibility,Fig. S6,30,1.4771624,1.8685371,1.8687346,0.44861538,2.3,1853,360,1853
+aem__backbone_rigidity,Backbone rigidity descriptor,rigidity/flexibility,Fig. S6,31,1.5114473,1.8685371,1.8687346,0.44861538,2.3,1853,360,1853
+aem__backbone_rigidity,Backbone rigidity descriptor,rigidity/flexibility,Fig. S6,32,1.5457322,1.8684944,1.8687346,0.44861538,2.3,1853,360,1853
+aem__backbone_rigidity,Backbone rigidity descriptor,rigidity/flexibility,Fig. S6,33,1.5800171,1.8685492,1.8687346,0.44861538,2.3,1853,360,1853
+aem__backbone_rigidity,Backbone rigidity descriptor,rigidity/flexibility,Fig. S6,34,1.614302,1.8685492,1.8687346,0.44861538,2.3,1853,360,1853
+aem__backbone_rigidity,Backbone rigidity descriptor,rigidity/flexibility,Fig. S6,35,1.6485869,1.8685492,1.8687346,0.44861538,2.3,1853,360,1853
+aem__backbone_rigidity,Backbone rigidity descriptor,rigidity/flexibility,Fig. S6,36,1.6828718,1.8677833,1.8687346,0.44861538,2.3,1853,360,1853
+aem__backbone_rigidity,Backbone rigidity descriptor,rigidity/flexibility,Fig. S6,37,1.7171567,1.8677833,1.8687346,0.44861538,2.3,1853,360,1853
+aem__backbone_rigidity,Backbone rigidity descriptor,rigidity/flexibility,Fig. S6,38,1.7514416,1.8677833,1.8687346,0.44861538,2.3,1853,360,1853
+aem__backbone_rigidity,Backbone rigidity descriptor,rigidity/flexibility,Fig. S6,39,1.7857265,1.8677833,1.8687346,0.44861538,2.3,1853,360,1853
+aem__backbone_rigidity,Backbone rigidity descriptor,rigidity/flexibility,Fig. S6,40,1.8200114,1.8655428,1.8687346,0.44861538,2.3,1853,360,1853
+aem__backbone_rigidity,Backbone rigidity descriptor,rigidity/flexibility,Fig. S6,41,1.8542963,1.8649245,1.8687346,0.44861538,2.3,1853,360,1853
+aem__backbone_rigidity,Backbone rigidity descriptor,rigidity/flexibility,Fig. S6,42,1.8885812,1.8649245,1.8687346,0.44861538,2.3,1853,360,1853
+aem__backbone_rigidity,Backbone rigidity descriptor,rigidity/flexibility,Fig. S6,43,1.9228661,1.8649036,1.8687346,0.44861538,2.3,1853,360,1853
+aem__backbone_rigidity,Backbone rigidity descriptor,rigidity/flexibility,Fig. S6,44,1.957151,1.8636301,1.8687346,0.44861538,2.3,1853,360,1853
+aem__backbone_rigidity,Backbone rigidity descriptor,rigidity/flexibility,Fig. S6,45,1.9914359,1.8629814,1.8687346,0.44861538,2.3,1853,360,1853
+aem__backbone_rigidity,Backbone rigidity descriptor,rigidity/flexibility,Fig. S6,46,2.0257208,1.8629814,1.8687346,0.44861538,2.3,1853,360,1853
+aem__backbone_rigidity,Backbone rigidity descriptor,rigidity/flexibility,Fig. S6,47,2.0600057,1.8629814,1.8687346,0.44861538,2.3,1853,360,1853
+aem__backbone_rigidity,Backbone rigidity descriptor,rigidity/flexibility,Fig. S6,48,2.0942906,1.8622758,1.8687346,0.44861538,2.3,1853,360,1853
+aem__backbone_rigidity,Backbone rigidity descriptor,rigidity/flexibility,Fig. S6,49,2.1285755,1.8622758,1.8687346,0.44861538,2.3,1853,360,1853
+aem__backbone_rigidity,Backbone rigidity descriptor,rigidity/flexibility,Fig. S6,50,2.1628604,1.860562,1.8687346,0.44861538,2.3,1853,360,1853
+aem__backbone_rigidity,Backbone rigidity descriptor,rigidity/flexibility,Fig. S6,51,2.1971453,1.860562,1.8687346,0.44861538,2.3,1853,360,1853
+aem__backbone_rigidity,Backbone rigidity descriptor,rigidity/flexibility,Fig. S6,52,2.2314302,1.8617792,1.8687346,0.44861538,2.3,1853,360,1853
+aem__backbone_rigidity,Backbone rigidity descriptor,rigidity/flexibility,Fig. S6,53,2.2657151,1.8617792,1.8687346,0.44861538,2.3,1853,360,1853
+aem__backbone_rigidity,Backbone rigidity descriptor,rigidity/flexibility,Fig. S6,54,2.3,1.8617792,1.8687346,0.44861538,2.3,1853,360,1853
+aem__hydration_overlap_contrast,Hydration-overlap contrast,hydration/network,Fig. S6,0,0,1.866392,1.8687346,0,0.24230671,1963,175,1939
+aem__hydration_overlap_contrast,Hydration-overlap contrast,hydration/network,Fig. S6,1,0.0044871613,1.867386,1.8687346,0,0.24230671,1963,175,1939
+aem__hydration_overlap_contrast,Hydration-overlap contrast,hydration/network,Fig. S6,2,0.0089743226,1.867386,1.8687346,0,0.24230671,1963,175,1939
+aem__hydration_overlap_contrast,Hydration-overlap contrast,hydration/network,Fig. S6,3,0.013461484,1.8676991,1.8687346,0,0.24230671,1963,175,1939
+aem__hydration_overlap_contrast,Hydration-overlap contrast,hydration/network,Fig. S6,4,0.017948645,1.8676991,1.8687346,0,0.24230671,1963,175,1939
+aem__hydration_overlap_contrast,Hydration-overlap contrast,hydration/network,Fig. S6,5,0.022435807,1.8676991,1.8687346,0,0.24230671,1963,175,1939
+aem__hydration_overlap_contrast,Hydration-overlap contrast,hydration/network,Fig. S6,6,0.026922968,1.8679395,1.8687346,0,0.24230671,1963,175,1939
+aem__hydration_overlap_contrast,Hydration-overlap contrast,hydration/network,Fig. S6,7,0.031410129,1.8687346,1.8687346,0,0.24230671,1963,175,1939
+aem__hydration_overlap_contrast,Hydration-overlap contrast,hydration/network,Fig. S6,8,0.03589729,1.8687319,1.8687346,0,0.24230671,1963,175,1939
+aem__hydration_overlap_contrast,Hydration-overlap contrast,hydration/network,Fig. S6,9,0.040384452,1.8687319,1.8687346,0,0.24230671,1963,175,1939
+aem__hydration_overlap_contrast,Hydration-overlap contrast,hydration/network,Fig. S6,10,0.044871613,1.8687319,1.8687346,0,0.24230671,1963,175,1939
+aem__hydration_overlap_contrast,Hydration-overlap contrast,hydration/network,Fig. S6,11,0.049358774,1.8679117,1.8687346,0,0.24230671,1963,175,1939
+aem__hydration_overlap_contrast,Hydration-overlap contrast,hydration/network,Fig. S6,12,0.053845936,1.8679117,1.8687346,0,0.24230671,1963,175,1939
+aem__hydration_overlap_contrast,Hydration-overlap contrast,hydration/network,Fig. S6,13,0.058333097,1.8679117,1.8687346,0,0.24230671,1963,175,1939
+aem__hydration_overlap_contrast,Hydration-overlap contrast,hydration/network,Fig. S6,14,0.062820258,1.8679117,1.8687346,0,0.24230671,1963,175,1939
+aem__hydration_overlap_contrast,Hydration-overlap contrast,hydration/network,Fig. S6,15,0.06730742,1.8675265,1.8687346,0,0.24230671,1963,175,1939
+aem__hydration_overlap_contrast,Hydration-overlap contrast,hydration/network,Fig. S6,16,0.071794581,1.8675265,1.8687346,0,0.24230671,1963,175,1939
+aem__hydration_overlap_contrast,Hydration-overlap contrast,hydration/network,Fig. S6,17,0.076281742,1.8671282,1.8687346,0,0.24230671,1963,175,1939
+aem__hydration_overlap_contrast,Hydration-overlap contrast,hydration/network,Fig. S6,18,0.080768903,1.8671282,1.8687346,0,0.24230671,1963,175,1939
+aem__hydration_overlap_contrast,Hydration-overlap contrast,hydration/network,Fig. S6,19,0.085256065,1.8671282,1.8687346,0,0.24230671,1963,175,1939
+aem__hydration_overlap_contrast,Hydration-overlap contrast,hydration/network,Fig. S6,20,0.089743226,1.8671282,1.8687346,0,0.24230671,1963,175,1939
+aem__hydration_overlap_contrast,Hydration-overlap contrast,hydration/network,Fig. S6,21,0.094230387,1.8671282,1.8687346,0,0.24230671,1963,175,1939
+aem__hydration_overlap_contrast,Hydration-overlap contrast,hydration/network,Fig. S6,22,0.098717549,1.8671282,1.8687346,0,0.24230671,1963,175,1939
+aem__hydration_overlap_contrast,Hydration-overlap contrast,hydration/network,Fig. S6,23,0.10320471,1.8673223,1.8687346,0,0.24230671,1963,175,1939
+aem__hydration_overlap_contrast,Hydration-overlap contrast,hydration/network,Fig. S6,24,0.10769187,1.8673223,1.8687346,0,0.24230671,1963,175,1939
+aem__hydration_overlap_contrast,Hydration-overlap contrast,hydration/network,Fig. S6,25,0.11217903,1.8673223,1.8687346,0,0.24230671,1963,175,1939
+aem__hydration_overlap_contrast,Hydration-overlap contrast,hydration/network,Fig. S6,26,0.11666619,1.863487,1.8687346,0,0.24230671,1963,175,1939
+aem__hydration_overlap_contrast,Hydration-overlap contrast,hydration/network,Fig. S6,27,0.12115336,1.863487,1.8687346,0,0.24230671,1963,175,1939
+aem__hydration_overlap_contrast,Hydration-overlap contrast,hydration/network,Fig. S6,28,0.12564052,1.863487,1.8687346,0,0.24230671,1963,175,1939
+aem__hydration_overlap_contrast,Hydration-overlap contrast,hydration/network,Fig. S6,29,0.13012768,1.863487,1.8687346,0,0.24230671,1963,175,1939
+aem__hydration_overlap_contrast,Hydration-overlap contrast,hydration/network,Fig. S6,30,0.13461484,1.8552014,1.8687346,0,0.24230671,1963,175,1939
+aem__hydration_overlap_contrast,Hydration-overlap contrast,hydration/network,Fig. S6,31,0.139102,1.8552014,1.8687346,0,0.24230671,1963,175,1939
+aem__hydration_overlap_contrast,Hydration-overlap contrast,hydration/network,Fig. S6,32,0.14358916,1.8552014,1.8687346,0,0.24230671,1963,175,1939
+aem__hydration_overlap_contrast,Hydration-overlap contrast,hydration/network,Fig. S6,33,0.14807632,1.8552014,1.8687346,0,0.24230671,1963,175,1939
+aem__hydration_overlap_contrast,Hydration-overlap contrast,hydration/network,Fig. S6,34,0.15256348,1.8552014,1.8687346,0,0.24230671,1963,175,1939
+aem__hydration_overlap_contrast,Hydration-overlap contrast,hydration/network,Fig. S6,35,0.15705065,1.8552014,1.8687346,0,0.24230671,1963,175,1939
+aem__hydration_overlap_contrast,Hydration-overlap contrast,hydration/network,Fig. S6,36,0.16153781,1.8521801,1.8687346,0,0.24230671,1963,175,1939
+aem__hydration_overlap_contrast,Hydration-overlap contrast,hydration/network,Fig. S6,37,0.16602497,1.8521801,1.8687346,0,0.24230671,1963,175,1939
+aem__hydration_overlap_contrast,Hydration-overlap contrast,hydration/network,Fig. S6,38,0.17051213,1.8521801,1.8687346,0,0.24230671,1963,175,1939
+aem__hydration_overlap_contrast,Hydration-overlap contrast,hydration/network,Fig. S6,39,0.17499929,1.8521801,1.8687346,0,0.24230671,1963,175,1939
+aem__hydration_overlap_contrast,Hydration-overlap contrast,hydration/network,Fig. S6,40,0.17948645,1.8521801,1.8687346,0,0.24230671,1963,175,1939
+aem__hydration_overlap_contrast,Hydration-overlap contrast,hydration/network,Fig. S6,41,0.18397361,1.8521801,1.8687346,0,0.24230671,1963,175,1939
+aem__hydration_overlap_contrast,Hydration-overlap contrast,hydration/network,Fig. S6,42,0.18846077,1.8521801,1.8687346,0,0.24230671,1963,175,1939
+aem__hydration_overlap_contrast,Hydration-overlap contrast,hydration/network,Fig. S6,43,0.19294794,1.8521801,1.8687346,0,0.24230671,1963,175,1939
+aem__hydration_overlap_contrast,Hydration-overlap contrast,hydration/network,Fig. S6,44,0.1974351,1.8521801,1.8687346,0,0.24230671,1963,175,1939
+aem__hydration_overlap_contrast,Hydration-overlap contrast,hydration/network,Fig. S6,45,0.20192226,1.8521801,1.8687346,0,0.24230671,1963,175,1939
+aem__hydration_overlap_contrast,Hydration-overlap contrast,hydration/network,Fig. S6,46,0.20640942,1.8521801,1.8687346,0,0.24230671,1963,175,1939
+aem__hydration_overlap_contrast,Hydration-overlap contrast,hydration/network,Fig. S6,47,0.21089658,1.8521801,1.8687346,0,0.24230671,1963,175,1939
+aem__hydration_overlap_contrast,Hydration-overlap contrast,hydration/network,Fig. S6,48,0.21538374,1.8521801,1.8687346,0,0.24230671,1963,175,1939
+aem__hydration_overlap_contrast,Hydration-overlap contrast,hydration/network,Fig. S6,49,0.2198709,1.8521801,1.8687346,0,0.24230671,1963,175,1939
+aem__hydration_overlap_contrast,Hydration-overlap contrast,hydration/network,Fig. S6,50,0.22435807,1.8521801,1.8687346,0,0.24230671,1963,175,1939
+aem__hydration_overlap_contrast,Hydration-overlap contrast,hydration/network,Fig. S6,51,0.22884523,1.8521801,1.8687346,0,0.24230671,1963,175,1939
+aem__hydration_overlap_contrast,Hydration-overlap contrast,hydration/network,Fig. S6,52,0.23333239,1.8521801,1.8687346,0,0.24230671,1963,175,1939
+aem__hydration_overlap_contrast,Hydration-overlap contrast,hydration/network,Fig. S6,53,0.23781955,1.8521801,1.8687346,0,0.24230671,1963,175,1939
+aem__hydration_overlap_contrast,Hydration-overlap contrast,hydration/network,Fig. S6,54,0.24230671,1.8521801,1.8687346,0,0.24230671,1963,175,1939
+aem__cation_to_anchor_distance_mean,Cation-to-anchor distance,cation placement,Fig. S6,0,1.5,1.8558089,1.8687346,1.5,11.5,1851,206,1851
+aem__cation_to_anchor_distance_mean,Cation-to-anchor distance,cation placement,Fig. S6,1,1.6851852,1.8557236,1.8687346,1.5,11.5,1851,206,1851
+aem__cation_to_anchor_distance_mean,Cation-to-anchor distance,cation placement,Fig. S6,2,1.8703704,1.8557452,1.8687346,1.5,11.5,1851,206,1851
+aem__cation_to_anchor_distance_mean,Cation-to-anchor distance,cation placement,Fig. S6,3,2.0555556,1.8686629,1.8687346,1.5,11.5,1851,206,1851
+aem__cation_to_anchor_distance_mean,Cation-to-anchor distance,cation placement,Fig. S6,4,2.2407407,1.8668193,1.8687346,1.5,11.5,1851,206,1851
+aem__cation_to_anchor_distance_mean,Cation-to-anchor distance,cation placement,Fig. S6,5,2.4259259,1.8687346,1.8687346,1.5,11.5,1851,206,1851
+aem__cation_to_anchor_distance_mean,Cation-to-anchor distance,cation placement,Fig. S6,6,2.6111111,1.8687346,1.8687346,1.5,11.5,1851,206,1851
+aem__cation_to_anchor_distance_mean,Cation-to-anchor distance,cation placement,Fig. S6,7,2.7962963,1.8687346,1.8687346,1.5,11.5,1851,206,1851
+aem__cation_to_anchor_distance_mean,Cation-to-anchor distance,cation placement,Fig. S6,8,2.9814815,1.8687346,1.8687346,1.5,11.5,1851,206,1851
+aem__cation_to_anchor_distance_mean,Cation-to-anchor distance,cation placement,Fig. S6,9,3.1666667,1.8687346,1.8687346,1.5,11.5,1851,206,1851
+aem__cation_to_anchor_distance_mean,Cation-to-anchor distance,cation placement,Fig. S6,10,3.3518519,1.8687346,1.8687346,1.5,11.5,1851,206,1851
+aem__cation_to_anchor_distance_mean,Cation-to-anchor distance,cation placement,Fig. S6,11,3.537037,1.8687346,1.8687346,1.5,11.5,1851,206,1851
+aem__cation_to_anchor_distance_mean,Cation-to-anchor distance,cation placement,Fig. S6,12,3.7222222,1.8687346,1.8687346,1.5,11.5,1851,206,1851
+aem__cation_to_anchor_distance_mean,Cation-to-anchor distance,cation placement,Fig. S6,13,3.9074074,1.8687346,1.8687346,1.5,11.5,1851,206,1851
+aem__cation_to_anchor_distance_mean,Cation-to-anchor distance,cation placement,Fig. S6,14,4.0925926,1.8687346,1.8687346,1.5,11.5,1851,206,1851
+aem__cation_to_anchor_distance_mean,Cation-to-anchor distance,cation placement,Fig. S6,15,4.2777778,1.8687346,1.8687346,1.5,11.5,1851,206,1851
+aem__cation_to_anchor_distance_mean,Cation-to-anchor distance,cation placement,Fig. S6,16,4.462963,1.8687346,1.8687346,1.5,11.5,1851,206,1851
+aem__cation_to_anchor_distance_mean,Cation-to-anchor distance,cation placement,Fig. S6,17,4.6481481,1.8687346,1.8687346,1.5,11.5,1851,206,1851
+aem__cation_to_anchor_distance_mean,Cation-to-anchor distance,cation placement,Fig. S6,18,4.8333333,1.8692941,1.8687346,1.5,11.5,1851,206,1851
+aem__cation_to_anchor_distance_mean,Cation-to-anchor distance,cation placement,Fig. S6,19,5.0185185,1.8692941,1.8687346,1.5,11.5,1851,206,1851
+aem__cation_to_anchor_distance_mean,Cation-to-anchor distance,cation placement,Fig. S6,20,5.2037037,1.8692941,1.8687346,1.5,11.5,1851,206,1851
+aem__cation_to_anchor_distance_mean,Cation-to-anchor distance,cation placement,Fig. S6,21,5.3888889,1.8692941,1.8687346,1.5,11.5,1851,206,1851
+aem__cation_to_anchor_distance_mean,Cation-to-anchor distance,cation placement,Fig. S6,22,5.5740741,1.8692941,1.8687346,1.5,11.5,1851,206,1851
+aem__cation_to_anchor_distance_mean,Cation-to-anchor distance,cation placement,Fig. S6,23,5.7592593,1.8692941,1.8687346,1.5,11.5,1851,206,1851
+aem__cation_to_anchor_distance_mean,Cation-to-anchor distance,cation placement,Fig. S6,24,5.9444444,1.8692941,1.8687346,1.5,11.5,1851,206,1851
+aem__cation_to_anchor_distance_mean,Cation-to-anchor distance,cation placement,Fig. S6,25,6.1296296,1.8692941,1.8687346,1.5,11.5,1851,206,1851
+aem__cation_to_anchor_distance_mean,Cation-to-anchor distance,cation placement,Fig. S6,26,6.3148148,1.8692941,1.8687346,1.5,11.5,1851,206,1851
+aem__cation_to_anchor_distance_mean,Cation-to-anchor distance,cation placement,Fig. S6,27,6.5,1.8692262,1.8687346,1.5,11.5,1851,206,1851
+aem__cation_to_anchor_distance_mean,Cation-to-anchor distance,cation placement,Fig. S6,28,6.6851852,1.8692262,1.8687346,1.5,11.5,1851,206,1851
+aem__cation_to_anchor_distance_mean,Cation-to-anchor distance,cation placement,Fig. S6,29,6.8703704,1.8692262,1.8687346,1.5,11.5,1851,206,1851
+aem__cation_to_anchor_distance_mean,Cation-to-anchor distance,cation placement,Fig. S6,30,7.0555556,1.8692262,1.8687346,1.5,11.5,1851,206,1851
+aem__cation_to_anchor_distance_mean,Cation-to-anchor distance,cation placement,Fig. S6,31,7.2407407,1.8692515,1.8687346,1.5,11.5,1851,206,1851
+aem__cation_to_anchor_distance_mean,Cation-to-anchor distance,cation placement,Fig. S6,32,7.4259259,1.8692515,1.8687346,1.5,11.5,1851,206,1851
+aem__cation_to_anchor_distance_mean,Cation-to-anchor distance,cation placement,Fig. S6,33,7.6111111,1.8692515,1.8687346,1.5,11.5,1851,206,1851
+aem__cation_to_anchor_distance_mean,Cation-to-anchor distance,cation placement,Fig. S6,34,7.7962963,1.8692515,1.8687346,1.5,11.5,1851,206,1851
+aem__cation_to_anchor_distance_mean,Cation-to-anchor distance,cation placement,Fig. S6,35,7.9814815,1.8692515,1.8687346,1.5,11.5,1851,206,1851
+aem__cation_to_anchor_distance_mean,Cation-to-anchor distance,cation placement,Fig. S6,36,8.1666667,1.8703026,1.8687346,1.5,11.5,1851,206,1851
+aem__cation_to_anchor_distance_mean,Cation-to-anchor distance,cation placement,Fig. S6,37,8.3518519,1.8703026,1.8687346,1.5,11.5,1851,206,1851
+aem__cation_to_anchor_distance_mean,Cation-to-anchor distance,cation placement,Fig. S6,38,8.537037,1.8703026,1.8687346,1.5,11.5,1851,206,1851
+aem__cation_to_anchor_distance_mean,Cation-to-anchor distance,cation placement,Fig. S6,39,8.7222222,1.8703026,1.8687346,1.5,11.5,1851,206,1851
+aem__cation_to_anchor_distance_mean,Cation-to-anchor distance,cation placement,Fig. S6,40,8.9074074,1.8703026,1.8687346,1.5,11.5,1851,206,1851
+aem__cation_to_anchor_distance_mean,Cation-to-anchor distance,cation placement,Fig. S6,41,9.0925926,1.8703026,1.8687346,1.5,11.5,1851,206,1851
+aem__cation_to_anchor_distance_mean,Cation-to-anchor distance,cation placement,Fig. S6,42,9.2777778,1.8703026,1.8687346,1.5,11.5,1851,206,1851
+aem__cation_to_anchor_distance_mean,Cation-to-anchor distance,cation placement,Fig. S6,43,9.462963,1.8703026,1.8687346,1.5,11.5,1851,206,1851
+aem__cation_to_anchor_distance_mean,Cation-to-anchor distance,cation placement,Fig. S6,44,9.6481481,1.8703026,1.8687346,1.5,11.5,1851,206,1851
+aem__cation_to_anchor_distance_mean,Cation-to-anchor distance,cation placement,Fig. S6,45,9.8333333,1.8703026,1.8687346,1.5,11.5,1851,206,1851
+aem__cation_to_anchor_distance_mean,Cation-to-anchor distance,cation placement,Fig. S6,46,10.018519,1.8703026,1.8687346,1.5,11.5,1851,206,1851
+aem__cation_to_anchor_distance_mean,Cation-to-anchor distance,cation placement,Fig. S6,47,10.203704,1.8692215,1.8687346,1.5,11.5,1851,206,1851
+aem__cation_to_anchor_distance_mean,Cation-to-anchor distance,cation placement,Fig. S6,48,10.388889,1.8692215,1.8687346,1.5,11.5,1851,206,1851
+aem__cation_to_anchor_distance_mean,Cation-to-anchor distance,cation placement,Fig. S6,49,10.574074,1.8692215,1.8687346,1.5,11.5,1851,206,1851
+aem__cation_to_anchor_distance_mean,Cation-to-anchor distance,cation placement,Fig. S6,50,10.759259,1.8685727,1.8687346,1.5,11.5,1851,206,1851
+aem__cation_to_anchor_distance_mean,Cation-to-anchor distance,cation placement,Fig. S6,51,10.944444,1.8685727,1.8687346,1.5,11.5,1851,206,1851
+aem__cation_to_anchor_distance_mean,Cation-to-anchor distance,cation placement,Fig. S6,52,11.12963,1.8707278,1.8687346,1.5,11.5,1851,206,1851
+aem__cation_to_anchor_distance_mean,Cation-to-anchor distance,cation placement,Fig. S6,53,11.314815,1.8707278,1.8687346,1.5,11.5,1851,206,1851
+aem__cation_to_anchor_distance_mean,Cation-to-anchor distance,cation placement,Fig. S6,54,11.5,1.8707278,1.8687346,1.5,11.5,1851,206,1851

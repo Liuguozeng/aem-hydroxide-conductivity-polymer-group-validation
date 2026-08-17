@@ -1,0 +1,58 @@
+{
+  "scope": {
+    "public_aggregate_index_only": true,
+    "copied_from_reported_manuscript_tables": true,
+    "toy_script_does_not_generate_these_metrics": true,
+    "exact_metric_regeneration_uses_non_public_observation_table": true
+  },
+  "target": "log10(reported hydroxide conductivity / mS cm\u207b\u00b9)",
+  "reported_metrics": {
+    "polymer_group_base_generic": {
+      "feature_set": "BASE + GENERIC",
+      "r2": 0.801,
+      "location": "Manuscript Results; Supplementary Data 1 Table S6"
+    },
+    "random_rowwise_controls": {
+      "base_generic_r2": 0.94,
+      "base_generic_aem_descriptor_set_r2": 0.941,
+      "role": "optimistic leakage-prone control only",
+      "location": "Supplementary Data 1 Table S11"
+    },
+    "repeated_polymer_holdout_aem_descriptor_set": {
+      "median_delta_r2": 0.005,
+      "win_rate_percent": 75,
+      "comparison": "AEM descriptors relative to BASE + GENERIC",
+      "location": "Supplementary Data 1 Table S8"
+    },
+    "source_held_out_offset_check": {
+      "mean_shift_r2": 0.871,
+      "affine_r2": 0.891,
+      "role": "post hoc offset-size analysis; raw held-out predictions remain the prospective estimate",
+      "location": "Supplementary Data 1 Table S6"
+    },
+    "polymer_group_full_descriptor_model": {
+      "feature_set": "BASE + GENERIC + AEM descriptors",
+      "r2": 0.805,
+      "rmse": 0.128,
+      "mae": 0.096,
+      "location": "Manuscript Abstract/Results; Supplementary Data 1 Table S6"
+    },
+    "source_held_out_raw": {
+      "r2": 0.679,
+      "rmse": 0.164,
+      "mae": 0.126,
+      "spearman": 0.821,
+      "negative_raw_r2_fraction": 0.301,
+      "location": "Manuscript; Supplementary Data 1 Tables S6 and S9"
+    }
+  },
+  "metric_table_links": {
+    "split_logic": "Supplementary Data 1 Table S4",
+    "descriptor_family_sensitivity": "Supplementary Data 1 Table S6",
+    "fixed_temperature": "Supplementary Data 1 Table S7",
+    "repeated_holdout": "Supplementary Data 1 Table S8",
+    "rowwise_control": "Supplementary Data 1 Table S11",
+    "public_curation_protocol": "Supplementary Data 1 Table S12",
+    "uncertainty_and_split_size_summary": "Supplementary Data 1 Table S13"
+  }
+}

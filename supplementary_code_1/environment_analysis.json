@@ -1,0 +1,19 @@
+{
+  "interpretation": "These package versions accompany the locked model outputs. The current ML verification runtime is recorded separately and must not be presented as the historical model-generation environment.",
+  "packages": {
+    "catboost": "1.2.7",
+    "joblib": "1.4.2",
+    "matplotlib": "3.9.2",
+    "nbformat": "5.10.4",
+    "numpy": "1.26.4",
+    "openpyxl": "3.1.5",
+    "pandas": "2.2.2",
+    "rdkit": "2024.3.5",
+    "scikit-learn": "1.5.1",
+    "scipy": "1.13.1",
+    "shap": "0.46.0"
+  },
+  "python": "not captured in the original analysis cache",
+  "scope": "locked manuscript-analysis environment record",
+  "source_record": "locked manuscript-analysis cache"
+}

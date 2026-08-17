@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this code or public summary material, please cite the archived release and the associated article."
+title: "Polymer-group validation of hydroxide-conductivity models for anion exchange membranes: data leakage, descriptor interpretation, and source heterogeneity"
+version: 1.0.0
+date-released: 2026-08-17
+authors:
+  - family-names: Liu
+    given-names: Guo-Zeng
+  - family-names: Li
+    given-names: Hong-Fei
+  - family-names: Sun
+    given-names: Zhao-Yan
+  - family-names: Xu
+    given-names: Wen-Sheng
+repository-code: "https://github.com/Liuguozeng/aem-hydroxide-conductivity-polymer-group-validation"
+license: MIT

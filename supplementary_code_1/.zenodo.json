@@ -1,0 +1,26 @@
+{
+  "title": "Polymer-group validation of hydroxide-conductivity models for anion exchange membranes: data leakage, descriptor interpretation, and source heterogeneity",
+  "upload_type": "software",
+  "description": "Public code, synthetic grouped-validation example, response coordinates, and aggregate validation summaries accompanying the manuscript.",
+  "creators": [
+    {
+      "name": "Liu, Guo-Zeng"
+    },
+    {
+      "name": "Li, Hong-Fei"
+    },
+    {
+      "name": "Sun, Zhao-Yan"
+    },
+    {
+      "name": "Xu, Wen-Sheng"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "anion exchange membrane",
+    "hydroxide conductivity",
+    "polymer-group validation",
+    "data leakage"
+  ]
+}

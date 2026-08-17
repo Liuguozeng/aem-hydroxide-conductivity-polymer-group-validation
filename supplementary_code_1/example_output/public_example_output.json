@@ -1,0 +1,951 @@
+{
+  "claim_to_artifact_map": {
+    "available": true,
+    "claim_count": 9,
+    "claim_ids": [
+      "reported_hydroxide_conductivity_target",
+      "polymer_group_validation",
+      "fixed_model_family_comparison",
+      "rowwise_control_is_optimistic",
+      "generic_descriptors_supply_structure_signal",
+      "aem_descriptors_are_interpretive",
+      "support_distance_flags_risk",
+      "source_held_out_offsets",
+      "data_access_scope"
+    ],
+    "path": "claim_to_artifact_map_public.json",
+    "scope": {
+      "exact_metric_regeneration_uses_observation_level_verification_data": true,
+      "no_record_level_targets_or_source_records": true,
+      "public_claim_crosswalk_only": true,
+      "toy_script_does_not_generate_reported_metrics": true
+    }
+  },
+  "estimator_scope": {
+    "manuscript_estimator": "CatBoost on the non-public observation table",
+    "public_template_estimator": "Ridge(alpha=0.1) with median imputation and standard scaling",
+    "reason": "The public toy example demonstrates schema, split, leakage-check, row-wise-control, and feature-family logic; exact CatBoost metric recomputation uses the non-public observation table."
+  },
+  "feature_family_check": {
+    "aem_descriptor_columns": [
+      "aem_cation_to_anchor_descriptor",
+      "free_volume_descriptor",
+      "hydration_connectivity_descriptor",
+      "transport_balance_descriptor"
+    ],
+    "base_columns": [
+      "reported_temperature_c",
+      "iec_mmol_g",
+      "thickness_um",
+      "water_uptake_wt",
+      "swelling_ratio_pct",
+      "hydration_number",
+      "inv_temperature_k"
+    ],
+    "feature_counts": {
+      "BASE": 7,
+      "BASE_GENERIC": 12,
+      "BASE_GENERIC_AEM": 16
+    },
+    "full_feature_count": 16,
+    "generic_columns": [
+      "structure_token_length_proxy",
+      "lowercase_token_proxy",
+      "uppercase_token_proxy",
+      "separator_token_proxy",
+      "composition_entropy_proxy"
+    ],
+    "missing_feature_columns": [],
+    "nested_order": [
+      "BASE",
+      "BASE_GENERIC",
+      "BASE_GENERIC_AEM"
+    ]
+  },
+  "feature_sets": [
+    "BASE",
+    "BASE_GENERIC",
+    "BASE_GENERIC_AEM"
+  ],
+  "figure_source_map": {
+    "all_entries_have_journal_upload_artifacts": true,
+    "available": true,
+    "figure_count": 13,
+    "figure_ids": [
+      "Fig. 1",
+      "Fig. 2",
+      "Fig. 3",
+      "Fig. 4",
+      "Fig. 5",
+      "Fig. S1",
+      "Fig. S2",
+      "Fig. S3",
+      "Fig. S4",
+      "Fig. S5",
+      "Fig. S6",
+      "Fig. S7",
+      "Fig. S8"
+    ],
+    "journal_upload_artifact_route_count": 14,
+    "main_figure_count": 5,
+    "path": "figure_source_map_public.json",
+    "scope": {
+      "release": "aggregate and synthetic public materials only"
+    },
+    "summary": {},
+    "supplementary_figure_count": 8
+  },
+  "group_leakage": {
+    "fold_sizes": [
+      {
+        "overlap_groups": 0,
+        "test_rows": 2,
+        "train_rows": 8
+      },
+      {
+        "overlap_groups": 0,
+        "test_rows": 2,
+        "train_rows": 8
+      },
+      {
+        "overlap_groups": 0,
+        "test_rows": 2,
+        "train_rows": 8
+      },
+      {
+        "overlap_groups": 0,
+        "test_rows": 2,
+        "train_rows": 8
+      },
+      {
+        "overlap_groups": 0,
+        "test_rows": 2,
+        "train_rows": 8
+      }
+    ],
+    "folds": 5,
+    "max_overlap": 0
+  },
+  "manuscript_claim_checks": {
+    "feature_family_sensitivity": "Use metrics.grouped_cv only to inspect that the toy feature-family loop runs; use Supplementary Data 1 Table S6 and manuscript_metric_index.reported_metric_values for manuscript feature-family results.",
+    "figure_source_routing": "Use figure_source_map_public.json and figure_source_map.figure_ids to route each figure to artwork files, public tables, entries, and boundary notes.",
+    "polymer_group_validation": "Use group_leakage.max_overlap only to inspect the public grouped-split code path; use Supplementary Data 1 Table S4 for the manuscript held-out-key logic.",
+    "public_curation_boundary": "Use Supplementary Data 1 Table S12 for the public-curation protocol, reader-facing curation rationale, and aggregate-only release logic.",
+    "reported_manuscript_metrics": "Use Supplementary Data 1 Tables S4, S6, S8, S11, and S13 plus manuscript_metric_index.reported_metric_values for manuscript metrics and aggregate uncertainty checks; this public toy run is not a metric-regeneration source.",
+    "rowwise_optimistic_control": "Use metrics.rowwise_control only to inspect the toy row-wise-control path; use Supplementary Data 1 Table S11 and manuscript_metric_index.reported_metric_values for manuscript row-wise control values."
+  },
+  "manuscript_metric_index": {
+    "available": true,
+    "metric_table_links": {
+      "descriptor_family_sensitivity": "Supplementary Data 1 Table S6",
+      "fixed_temperature": "Supplementary Data 1 Table S7",
+      "public_curation_protocol": "Supplementary Data 1 Table S12",
+      "repeated_holdout": "Supplementary Data 1 Table S8",
+      "rowwise_control": "Supplementary Data 1 Table S11",
+      "split_logic": "Supplementary Data 1 Table S4",
+      "uncertainty_and_split_size_summary": "Supplementary Data 1 Table S13"
+    },
+    "path": "manuscript_metric_index_public.json",
+    "reported_metric_keys": [
+      "polymer_group_base_generic",
+      "random_rowwise_controls",
+      "repeated_polymer_holdout_aem_descriptor_set",
+      "source_held_out_offset_check",
+      "polymer_group_full_descriptor_model",
+      "source_held_out_raw"
+    ],
+    "reported_metric_locations": {
+      "polymer_group_base_generic": "Manuscript Results; Supplementary Data 1 Table S6",
+      "polymer_group_full_descriptor_model": "Manuscript Abstract/Results; Supplementary Data 1 Table S6",
+      "random_rowwise_controls": "Supplementary Data 1 Table S11",
+      "repeated_polymer_holdout_aem_descriptor_set": "Supplementary Data 1 Table S8",
+      "source_held_out_offset_check": "Supplementary Data 1 Table S6",
+      "source_held_out_raw": "Manuscript; Supplementary Data 1 Tables S6 and S9"
+    },
+    "reported_metric_values": {
+      "polymer_group_base_generic": {
+        "feature_set": "BASE + GENERIC",
+        "r2": 0.801
+      },
+      "polymer_group_full_descriptor_model": {
+        "feature_set": "BASE + GENERIC + AEM descriptors",
+        "mae": 0.096,
+        "r2": 0.805,
+        "rmse": 0.128
+      },
+      "random_rowwise_controls": {
+        "base_generic_aem_descriptor_set_r2": 0.941,
+        "base_generic_r2": 0.94,
+        "role": "optimistic leakage-prone control only"
+      },
+      "repeated_polymer_holdout_aem_descriptor_set": {
+        "comparison": "AEM descriptors relative to BASE + GENERIC",
+        "median_delta_r2": 0.005,
+        "win_rate_percent": 75
+      },
+      "source_held_out_offset_check": {
+        "affine_r2": 0.891,
+        "mean_shift_r2": 0.871,
+        "role": "post hoc offset-size analysis; raw held-out predictions remain the prospective estimate"
+      },
+      "source_held_out_raw": {
+        "mae": 0.126,
+        "negative_raw_r2_fraction": 0.301,
+        "r2": 0.679,
+        "rmse": 0.164,
+        "spearman": 0.821
+      }
+    },
+    "scope": {
+      "copied_from_reported_manuscript_tables": true,
+      "exact_metric_regeneration_uses_non_public_observation_table": true,
+      "public_aggregate_index_only": true,
+      "toy_script_does_not_generate_these_metrics": true
+    }
+  },
+  "metric_role": {
+    "exact_metric_regeneration": "uses non-public observation table",
+    "manuscript_metric_source": "manuscript_metric_index.reported_metric_values and Supplementary Data 1",
+    "metrics_field": "toy example metrics only",
+    "toy_primary_metrics_field": "toy example summary only"
+  },
+  "metrics": {
+    "grouped_cv": {
+      "BASE": {
+        "mae": 0.06791186734504304,
+        "r2": 0.9080251194669832,
+        "rmse": 0.07608384654176815
+      },
+      "BASE_GENERIC": {
+        "mae": 0.053601106552305856,
+        "r2": 0.9358143246175517,
+        "rmse": 0.06355897757434453
+      },
+      "BASE_GENERIC_AEM": {
+        "mae": 0.05221697310241211,
+        "r2": 0.9313468747857542,
+        "rmse": 0.06573368823623339
+      }
+    },
+    "rowwise_control": {
+      "BASE": {
+        "mae": 0.03638060189825949,
+        "r2": 0.9655337238640533,
+        "rmse": 0.04657523194096779
+      },
+      "BASE_GENERIC": {
+        "mae": 0.044186091791905246,
+        "r2": 0.9573995403113955,
+        "rmse": 0.05178035069575944
+      },
+      "BASE_GENERIC_AEM": {
+        "mae": 0.04262508165075267,
+        "r2": 0.9609154620946679,
+        "rmse": 0.04959756275321552
+      }
+    }
+  },
+  "polymer_groups": 5,
+  "primary_feature_set": "BASE_GENERIC_AEM",
+  "primary_split": "grouped_cv",
+  "public_output_boundary": {
+    "do_not_cite_toy_metrics_as_manuscript_performance": true,
+    "figure_source_map": "figure_source_map_public.json maps Fig. 1-Fig. 5 and Fig. S1-Fig. S8 to public source and upload-artifact routes.",
+    "public_curation_boundary": "Supplementary Data 1 Table S12 records the public-curation protocol and reader-facing curation rationale.",
+    "public_example_purpose": "schema, split, leakage-check, row-wise-control, and feature-family code-path inspection",
+    "public_route_maps": [
+      "public_schema_dictionary.csv",
+      "manuscript_metric_index_public.json",
+      "claim_to_artifact_map_public.json",
+      "reader_question_map_public.json",
+      "figure_source_map_public.json"
+    ],
+    "reported_metric_source": "Supplementary Data 1 Tables S4, S6, S8, S11, and S13 plus manuscript_metric_index_public.json and claim_to_artifact_map_public.json",
+    "toy_metrics_have_no_membrane_meaning": true
+  },
+  "reader_links": {
+    "public_checks": [
+      "validate_schema",
+      "group_leakage.max_overlap",
+      "metrics.grouped_cv",
+      "metrics.rowwise_control",
+      "feature_sets",
+      "claim_to_artifact_map.claim_ids",
+      "reader_question_map.question_ids",
+      "figure_source_map.figure_ids",
+      "schema_dictionary.public_roles",
+      "schema_feature_crosswalk.feature_set_membership",
+      "schema_check",
+      "split_check",
+      "feature_family_check"
+    ],
+    "recommended_tables": [
+      "S4",
+      "S6",
+      "S8",
+      "S11",
+      "S12",
+      "S13"
+    ]
+  },
+  "reader_question_map": {
+    "available": true,
+    "path": "reader_question_map_public.json",
+    "question_count": 8,
+    "question_ids": [
+      "dataset_not_public",
+      "exact_metric_regeneration",
+      "polymer_group_leakage",
+      "rowwise_split_optimism",
+      "small_aem_descriptor_increment",
+      "support_distance_and_source_context",
+      "response_profiles_not_causal",
+      "supplementary_code_scope"
+    ],
+    "scope": {
+      "exact_metric_regeneration_uses_non_public_observation_table": true,
+      "no_record_level_targets_or_source_records": true,
+      "public_reader_question_map_only": true,
+      "toy_script_does_not_generate_reported_metrics": true
+    }
+  },
+  "rows": 10,
+  "schema_check": {
+    "chemistry_family_groups": 4,
+    "missing_required_columns": [],
+    "numeric_target_rows": 10,
+    "observations_per_polymer_group": {
+      "polymer_A": 2,
+      "polymer_B": 2,
+      "polymer_C": 2,
+      "polymer_D": 2,
+      "polymer_E": 2
+    },
+    "polymer_groups": 5,
+    "positive_target": true,
+    "present_required_columns": [
+      "polymer_group",
+      "chemistry_family_group",
+      "source_context_group",
+      "reported_temperature_c",
+      "iec_mmol_g",
+      "thickness_um",
+      "water_uptake_wt",
+      "swelling_ratio_pct",
+      "hydration_number",
+      "reported_hydroxide_conductivity_ms_cm",
+      "synthetic_structure_token_1",
+      "synthetic_structure_token_2",
+      "ratio_1",
+      "ratio_2",
+      "aem_cation_to_anchor_descriptor",
+      "free_volume_descriptor",
+      "hydration_connectivity_descriptor",
+      "transport_balance_descriptor"
+    ],
+    "repeated_observation_groups": 5,
+    "required_column_count": 18,
+    "rows": 10,
+    "source_context_groups": 4
+  },
+  "schema_dictionary": {
+    "available": true,
+    "columns": [
+      "polymer_group",
+      "chemistry_family_group",
+      "source_context_group",
+      "reported_temperature_c",
+      "iec_mmol_g",
+      "thickness_um",
+      "water_uptake_wt",
+      "swelling_ratio_pct",
+      "hydration_number",
+      "reported_hydroxide_conductivity_ms_cm",
+      "synthetic_structure_token_1",
+      "synthetic_structure_token_2",
+      "ratio_1",
+      "ratio_2",
+      "aem_cation_to_anchor_descriptor",
+      "free_volume_descriptor",
+      "hydration_connectivity_descriptor",
+      "transport_balance_descriptor",
+      "inv_temperature_k",
+      "structure_token_length_proxy",
+      "lowercase_token_proxy",
+      "uppercase_token_proxy",
+      "separator_token_proxy",
+      "composition_entropy_proxy"
+    ],
+    "entry_count": 24,
+    "feature_families": [
+      "AEM_DESCRIPTOR",
+      "BASE",
+      "BASE_DERIVED",
+      "GENERIC",
+      "source_context",
+      "target",
+      "validation_context",
+      "validation_key"
+    ],
+    "feature_family_to_columns": {
+      "AEM_DESCRIPTOR": [
+        "aem_cation_to_anchor_descriptor",
+        "free_volume_descriptor",
+        "hydration_connectivity_descriptor",
+        "transport_balance_descriptor"
+      ],
+      "BASE": [
+        "reported_temperature_c",
+        "iec_mmol_g",
+        "thickness_um",
+        "water_uptake_wt",
+        "swelling_ratio_pct",
+        "hydration_number"
+      ],
+      "BASE_DERIVED": [
+        "inv_temperature_k"
+      ],
+      "GENERIC": [
+        "synthetic_structure_token_1",
+        "synthetic_structure_token_2",
+        "ratio_1",
+        "ratio_2",
+        "structure_token_length_proxy",
+        "lowercase_token_proxy",
+        "uppercase_token_proxy",
+        "separator_token_proxy",
+        "composition_entropy_proxy"
+      ],
+      "source_context": [
+        "source_context_group"
+      ],
+      "target": [
+        "reported_hydroxide_conductivity_ms_cm"
+      ],
+      "validation_context": [
+        "chemistry_family_group"
+      ],
+      "validation_key": [
+        "polymer_group"
+      ]
+    },
+    "non_public_table_note_rows": 24,
+    "path": "public_schema_dictionary.csv",
+    "public_role_to_columns": {
+      "aem_descriptor": [
+        "aem_cation_to_anchor_descriptor",
+        "free_volume_descriptor",
+        "hydration_connectivity_descriptor",
+        "transport_balance_descriptor"
+      ],
+      "base_covariate": [
+        "reported_temperature_c",
+        "iec_mmol_g",
+        "thickness_um",
+        "water_uptake_wt",
+        "swelling_ratio_pct",
+        "hydration_number",
+        "inv_temperature_k"
+      ],
+      "context_key": [
+        "chemistry_family_group",
+        "source_context_group"
+      ],
+      "generic_proxy": [
+        "structure_token_length_proxy",
+        "lowercase_token_proxy",
+        "uppercase_token_proxy",
+        "separator_token_proxy",
+        "composition_entropy_proxy"
+      ],
+      "group_key": [
+        "polymer_group"
+      ],
+      "structure_input": [
+        "synthetic_structure_token_1",
+        "synthetic_structure_token_2",
+        "ratio_1",
+        "ratio_2"
+      ],
+      "target": [
+        "reported_hydroxide_conductivity_ms_cm"
+      ]
+    },
+    "public_roles": [
+      "aem_descriptor",
+      "base_covariate",
+      "context_key",
+      "generic_proxy",
+      "group_key",
+      "structure_input",
+      "target"
+    ],
+    "records": [
+      {
+        "boundary": "Public toy groups are synthetic; exact assignments use the non-public observation table",
+        "column": "polymer_group",
+        "description": "Polymer identity key for grouped validation",
+        "feature_family": "validation_key",
+        "manuscript_use": "Defines held-out polymer groups",
+        "public_role": "group_key"
+      },
+      {
+        "boundary": "Public toy families are synthetic; exact assignments use the non-public observation table",
+        "column": "chemistry_family_group",
+        "description": "Example chemistry family grouping field",
+        "feature_family": "validation_context",
+        "manuscript_use": "Illustrates chemistry-family holdout language",
+        "public_role": "context_key"
+      },
+      {
+        "boundary": "Public toy contexts are synthetic; internal mapping uses the non-public observation table",
+        "column": "source_context_group",
+        "description": "Example source-context grouping field",
+        "feature_family": "source_context",
+        "manuscript_use": "Illustrates source-held-out offset checks",
+        "public_role": "context_key"
+      },
+      {
+        "boundary": "Public toy values only demonstrate code path; locked metrics use the non-public observation table",
+        "column": "reported_temperature_c",
+        "description": "Reported measurement temperature",
+        "feature_family": "BASE",
+        "manuscript_use": "Represents condition-aware reported-conductivity modeling",
+        "public_role": "base_covariate"
+      },
+      {
+        "boundary": "Public toy values only demonstrate code path; locked metrics use the non-public observation table",
+        "column": "iec_mmol_g",
+        "description": "Ion exchange capacity covariate",
+        "feature_family": "BASE",
+        "manuscript_use": "Represents reported membrane/test covariates used in the hydroxide-conductivity model",
+        "public_role": "base_covariate"
+      },
+      {
+        "boundary": "Public toy values only demonstrate code path; locked metrics use the non-public observation table",
+        "column": "thickness_um",
+        "description": "Membrane thickness covariate",
+        "feature_family": "BASE",
+        "manuscript_use": "Represents measurement and membrane-state information",
+        "public_role": "base_covariate"
+      },
+      {
+        "boundary": "Public toy values only demonstrate code path; locked metrics use the non-public observation table",
+        "column": "water_uptake_wt",
+        "description": "Water uptake covariate",
+        "feature_family": "BASE",
+        "manuscript_use": "Represents hydration-state contribution to reported hydroxide conductivity",
+        "public_role": "base_covariate"
+      },
+      {
+        "boundary": "Public toy values only demonstrate code path; locked metrics use the non-public observation table",
+        "column": "swelling_ratio_pct",
+        "description": "Swelling ratio covariate",
+        "feature_family": "BASE",
+        "manuscript_use": "Represents hydration and dimensional response",
+        "public_role": "base_covariate"
+      },
+      {
+        "boundary": "Public toy values only demonstrate code path; locked metrics use the non-public observation table",
+        "column": "hydration_number",
+        "description": "Hydration number covariate",
+        "feature_family": "BASE",
+        "manuscript_use": "Represents reported hydration level",
+        "public_role": "base_covariate"
+      },
+      {
+        "boundary": "Public toy target has no membrane meaning; locked metrics use the non-public observation table",
+        "column": "reported_hydroxide_conductivity_ms_cm",
+        "description": "Reported hydroxide conductivity target before log10 transform",
+        "feature_family": "target",
+        "manuscript_use": "Defines the reported hydroxide-conductivity target",
+        "public_role": "target"
+      },
+      {
+        "boundary": "Public toy structure tokens are synthetic; manuscript descriptors use the non-public observation table",
+        "column": "synthetic_structure_token_1",
+        "description": "Primary synthetic structure token",
+        "feature_family": "GENERIC",
+        "manuscript_use": "Feeds public generic structure descriptors",
+        "public_role": "structure_input"
+      },
+      {
+        "boundary": "Public toy structure tokens are synthetic; manuscript descriptors use the non-public observation table",
+        "column": "synthetic_structure_token_2",
+        "description": "Optional synthetic structure token",
+        "feature_family": "GENERIC",
+        "manuscript_use": "Feeds public generic structure descriptors",
+        "public_role": "structure_input"
+      },
+      {
+        "boundary": "Public toy ratios are synthetic; manuscript descriptors use the non-public observation table",
+        "column": "ratio_1",
+        "description": "Primary composition ratio",
+        "feature_family": "GENERIC",
+        "manuscript_use": "Feeds composition entropy proxy",
+        "public_role": "structure_input"
+      },
+      {
+        "boundary": "Public toy ratios are synthetic; manuscript descriptors use the non-public observation table",
+        "column": "ratio_2",
+        "description": "Optional second composition ratio",
+        "feature_family": "GENERIC",
+        "manuscript_use": "Feeds composition entropy proxy",
+        "public_role": "structure_input"
+      },
+      {
+        "boundary": "Public toy descriptor is not a direct membrane measurement; locked metrics use the non-public observation table",
+        "column": "aem_cation_to_anchor_descriptor",
+        "description": "Synthetic cation-placement descriptor",
+        "feature_family": "AEM_DESCRIPTOR",
+        "manuscript_use": "Demonstrates AEM descriptor feature-family path",
+        "public_role": "aem_descriptor"
+      },
+      {
+        "boundary": "Public toy descriptor is not a direct free-volume measurement; locked metrics use the non-public observation table",
+        "column": "free_volume_descriptor",
+        "description": "Synthetic free-volume-related descriptor",
+        "feature_family": "AEM_DESCRIPTOR",
+        "manuscript_use": "Demonstrates AEM descriptor feature-family path",
+        "public_role": "aem_descriptor"
+      },
+      {
+        "boundary": "Public toy descriptor is not a direct water-channel measurement; locked metrics use the non-public observation table",
+        "column": "hydration_connectivity_descriptor",
+        "description": "Synthetic hydration-connectivity descriptor",
+        "feature_family": "AEM_DESCRIPTOR",
+        "manuscript_use": "Demonstrates AEM descriptor feature-family path",
+        "public_role": "aem_descriptor"
+      },
+      {
+        "boundary": "Public toy descriptor is not a direct transport-pathway measurement; locked metrics use the non-public observation table",
+        "column": "transport_balance_descriptor",
+        "description": "Synthetic transport-balance descriptor",
+        "feature_family": "AEM_DESCRIPTOR",
+        "manuscript_use": "Demonstrates AEM descriptor feature-family path",
+        "public_role": "aem_descriptor"
+      },
+      {
+        "boundary": "Public toy feature only demonstrates preprocessing; locked metrics use the non-public observation table",
+        "column": "inv_temperature_k",
+        "description": "Inverse absolute temperature derived from reported temperature",
+        "feature_family": "BASE_DERIVED",
+        "manuscript_use": "Demonstrates derived condition covariate",
+        "public_role": "base_covariate"
+      },
+      {
+        "boundary": "Public toy feature is not an RDKit descriptor; locked metrics use the non-public observation table",
+        "column": "structure_token_length_proxy",
+        "description": "Simple length proxy from synthetic structure tokens",
+        "feature_family": "GENERIC",
+        "manuscript_use": "Demonstrates generic molecular descriptor branch",
+        "public_role": "generic_proxy"
+      },
+      {
+        "boundary": "Public toy feature is not an RDKit descriptor; locked metrics use the non-public observation table",
+        "column": "lowercase_token_proxy",
+        "description": "Simple lowercase-character count from synthetic structure tokens",
+        "feature_family": "GENERIC",
+        "manuscript_use": "Demonstrates generic molecular descriptor branch",
+        "public_role": "generic_proxy"
+      },
+      {
+        "boundary": "Public toy feature is not an RDKit descriptor; locked metrics use the non-public observation table",
+        "column": "uppercase_token_proxy",
+        "description": "Simple uppercase-character count from synthetic structure tokens",
+        "feature_family": "GENERIC",
+        "manuscript_use": "Demonstrates generic molecular descriptor branch",
+        "public_role": "generic_proxy"
+      },
+      {
+        "boundary": "Public toy feature is not an RDKit descriptor; locked metrics use the non-public observation table",
+        "column": "separator_token_proxy",
+        "description": "Simple separator-character count from synthetic structure tokens",
+        "feature_family": "GENERIC",
+        "manuscript_use": "Demonstrates generic molecular descriptor branch",
+        "public_role": "generic_proxy"
+      },
+      {
+        "boundary": "Public toy feature is not a manuscript descriptor value; locked metrics use the non-public observation table",
+        "column": "composition_entropy_proxy",
+        "description": "Simple entropy proxy from toy composition ratios",
+        "feature_family": "GENERIC",
+        "manuscript_use": "Demonstrates composition descriptor branch",
+        "public_role": "generic_proxy"
+      }
+    ]
+  },
+  "schema_feature_crosswalk": {
+    "available": true,
+    "columns_missing_from_toy_input_or_features": [],
+    "dictionary_columns": [
+      "polymer_group",
+      "chemistry_family_group",
+      "source_context_group",
+      "reported_temperature_c",
+      "iec_mmol_g",
+      "thickness_um",
+      "water_uptake_wt",
+      "swelling_ratio_pct",
+      "hydration_number",
+      "reported_hydroxide_conductivity_ms_cm",
+      "synthetic_structure_token_1",
+      "synthetic_structure_token_2",
+      "ratio_1",
+      "ratio_2",
+      "aem_cation_to_anchor_descriptor",
+      "free_volume_descriptor",
+      "hydration_connectivity_descriptor",
+      "transport_balance_descriptor",
+      "inv_temperature_k",
+      "structure_token_length_proxy",
+      "lowercase_token_proxy",
+      "uppercase_token_proxy",
+      "separator_token_proxy",
+      "composition_entropy_proxy"
+    ],
+    "dictionary_columns_not_in_feature_sets": [
+      "polymer_group",
+      "chemistry_family_group",
+      "source_context_group",
+      "reported_hydroxide_conductivity_ms_cm",
+      "synthetic_structure_token_1",
+      "synthetic_structure_token_2",
+      "ratio_1",
+      "ratio_2"
+    ],
+    "dictionary_covers_feature_columns": true,
+    "feature_columns": [
+      "reported_temperature_c",
+      "iec_mmol_g",
+      "thickness_um",
+      "water_uptake_wt",
+      "swelling_ratio_pct",
+      "hydration_number",
+      "inv_temperature_k",
+      "structure_token_length_proxy",
+      "lowercase_token_proxy",
+      "uppercase_token_proxy",
+      "separator_token_proxy",
+      "composition_entropy_proxy",
+      "aem_cation_to_anchor_descriptor",
+      "free_volume_descriptor",
+      "hydration_connectivity_descriptor",
+      "transport_balance_descriptor"
+    ],
+    "feature_columns_missing_from_dictionary": [],
+    "feature_family_to_columns": {
+      "AEM_DESCRIPTOR": [
+        "aem_cation_to_anchor_descriptor",
+        "free_volume_descriptor",
+        "hydration_connectivity_descriptor",
+        "transport_balance_descriptor"
+      ],
+      "BASE": [
+        "reported_temperature_c",
+        "iec_mmol_g",
+        "thickness_um",
+        "water_uptake_wt",
+        "swelling_ratio_pct",
+        "hydration_number"
+      ],
+      "BASE_DERIVED": [
+        "inv_temperature_k"
+      ],
+      "GENERIC": [
+        "synthetic_structure_token_1",
+        "synthetic_structure_token_2",
+        "ratio_1",
+        "ratio_2",
+        "structure_token_length_proxy",
+        "lowercase_token_proxy",
+        "uppercase_token_proxy",
+        "separator_token_proxy",
+        "composition_entropy_proxy"
+      ],
+      "source_context": [
+        "source_context_group"
+      ],
+      "target": [
+        "reported_hydroxide_conductivity_ms_cm"
+      ],
+      "validation_context": [
+        "chemistry_family_group"
+      ],
+      "validation_key": [
+        "polymer_group"
+      ]
+    },
+    "feature_set_column_counts": {
+      "BASE": 7,
+      "BASE_GENERIC": 12,
+      "BASE_GENERIC_AEM": 16
+    },
+    "feature_set_membership": {
+      "BASE": [
+        "reported_temperature_c",
+        "iec_mmol_g",
+        "thickness_um",
+        "water_uptake_wt",
+        "swelling_ratio_pct",
+        "hydration_number",
+        "inv_temperature_k"
+      ],
+      "BASE_GENERIC": [
+        "reported_temperature_c",
+        "iec_mmol_g",
+        "thickness_um",
+        "water_uptake_wt",
+        "swelling_ratio_pct",
+        "hydration_number",
+        "inv_temperature_k",
+        "structure_token_length_proxy",
+        "lowercase_token_proxy",
+        "uppercase_token_proxy",
+        "separator_token_proxy",
+        "composition_entropy_proxy"
+      ],
+      "BASE_GENERIC_AEM": [
+        "reported_temperature_c",
+        "iec_mmol_g",
+        "thickness_um",
+        "water_uptake_wt",
+        "swelling_ratio_pct",
+        "hydration_number",
+        "inv_temperature_k",
+        "structure_token_length_proxy",
+        "lowercase_token_proxy",
+        "uppercase_token_proxy",
+        "separator_token_proxy",
+        "composition_entropy_proxy",
+        "aem_cation_to_anchor_descriptor",
+        "free_volume_descriptor",
+        "hydration_connectivity_descriptor",
+        "transport_balance_descriptor"
+      ]
+    },
+    "public_role_to_columns": {
+      "aem_descriptor": [
+        "aem_cation_to_anchor_descriptor",
+        "free_volume_descriptor",
+        "hydration_connectivity_descriptor",
+        "transport_balance_descriptor"
+      ],
+      "base_covariate": [
+        "reported_temperature_c",
+        "iec_mmol_g",
+        "thickness_um",
+        "water_uptake_wt",
+        "swelling_ratio_pct",
+        "hydration_number",
+        "inv_temperature_k"
+      ],
+      "context_key": [
+        "chemistry_family_group",
+        "source_context_group"
+      ],
+      "generic_proxy": [
+        "structure_token_length_proxy",
+        "lowercase_token_proxy",
+        "uppercase_token_proxy",
+        "separator_token_proxy",
+        "composition_entropy_proxy"
+      ],
+      "group_key": [
+        "polymer_group"
+      ],
+      "structure_input": [
+        "synthetic_structure_token_1",
+        "synthetic_structure_token_2",
+        "ratio_1",
+        "ratio_2"
+      ],
+      "target": [
+        "reported_hydroxide_conductivity_ms_cm"
+      ]
+    }
+  },
+  "scope": {
+    "exact_manuscript_metrics_use_non_public_observation_table": true,
+    "not_public_contents": [
+      "non-public literature-derived rows",
+      "internal mapping metadata",
+      "full literature-extraction tables",
+      "trained models",
+      "row-level prediction files"
+    ],
+    "toy_example_only": true
+  },
+  "split_check": {
+    "grouped_cv": {
+      "fold_sizes": [
+        {
+          "overlap_groups": 0,
+          "test_rows": 2,
+          "train_rows": 8
+        },
+        {
+          "overlap_groups": 0,
+          "test_rows": 2,
+          "train_rows": 8
+        },
+        {
+          "overlap_groups": 0,
+          "test_rows": 2,
+          "train_rows": 8
+        },
+        {
+          "overlap_groups": 0,
+          "test_rows": 2,
+          "train_rows": 8
+        },
+        {
+          "overlap_groups": 0,
+          "test_rows": 2,
+          "train_rows": 8
+        }
+      ],
+      "folds": 5,
+      "max_overlap": 0
+    },
+    "rowwise_control": {
+      "fold_sizes": [
+        {
+          "overlap_groups": 2,
+          "test_rows": 2,
+          "train_rows": 8
+        },
+        {
+          "overlap_groups": 2,
+          "test_rows": 2,
+          "train_rows": 8
+        },
+        {
+          "overlap_groups": 2,
+          "test_rows": 2,
+          "train_rows": 8
+        },
+        {
+          "overlap_groups": 2,
+          "test_rows": 2,
+          "train_rows": 8
+        },
+        {
+          "overlap_groups": 2,
+          "test_rows": 2,
+          "train_rows": 8
+        }
+      ],
+      "folds": 5,
+      "max_overlap": 2,
+      "may_mix_repeated_polymer_rows": true,
+      "role": "optimistic leakage-prone control path"
+    }
+  },
+  "target": "log10(reported_hydroxide_conductivity_ms_cm)",
+  "toy_primary_metrics": {
+    "mae": 0.05221697310241211,
+    "r2": 0.9313468747857542,
+    "rmse": 0.06573368823623339
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "not_the_historical_model_generation_environment": true,
+  "packages": {
+    "Pillow": "11.3.0",
+    "catboost": "1.2.8",
+    "matplotlib": "3.10.5",
+    "numpy": "1.26.4",
+    "openpyxl": "3.1.5",
+    "pandas": "2.3.2",
+    "pypdf": "6.11.0",
+    "python-docx": "1.2.0",
+    "python-pptx": "not installed",
+    "rdkit": "2025.3.6",
+    "scikit-learn": "1.6.1",
+    "scipy": "1.16.1"
+  },
+  "platform": "macOS-15.6-arm64-arm-64bit",
+  "python": "3.12.8",
+  "python_executable": "path omitted from public package",
+  "scope": "independent current ML verification runtime",
+  "status": "recorded during package build"
+}

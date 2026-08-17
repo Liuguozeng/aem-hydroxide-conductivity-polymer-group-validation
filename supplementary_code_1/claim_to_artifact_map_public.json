@@ -1,0 +1,108 @@
+{
+  "scope": {
+    "public_claim_crosswalk_only": true,
+    "toy_script_does_not_generate_reported_metrics": true,
+    "exact_metric_regeneration_uses_observation_level_verification_data": true,
+    "no_record_level_targets_or_source_records": true
+  },
+  "claims": [
+    {
+      "claim_id": "reported_hydroxide_conductivity_target",
+      "claim": "The target is log10(reported AEM hydroxide conductivity / mS cm\u207b\u00b9), treated as a condition-specific reported property.",
+      "manuscript_location": "Abstract; opening methods paragraph; Data availability",
+      "public_artifacts_to_inspect": [
+        "Supplementary Data 1 Tables S1 and S12",
+        "README.md",
+        "example_data/schema_example.csv"
+      ],
+      "boundary": "The synthetic example demonstrates field roles but not literature-record values."
+    },
+    {
+      "claim_id": "polymer_group_validation",
+      "claim": "Polymer identity is the primary validation unit for repeated literature observations.",
+      "manuscript_location": "Main text; Fig. 1; Table S4",
+      "public_artifacts_to_inspect": [
+        "src/public_pipeline_template.py",
+        "example_data/schema_example.csv",
+        "Supplementary Data 1 Table S4"
+      ],
+      "boundary": "The synthetic grouped split checks the code path; manuscript metrics use the full verification table."
+    },
+    {
+      "claim_id": "fixed_model_family_comparison",
+      "claim": "Eleven model families were compared on the same outer polymer folds and outer-fold feature matrix, with model-specific scaling or training-only grid search where required.",
+      "manuscript_location": "Main text; Fig. S4; Supplementary Data 1 Tables S5 and S15",
+      "public_artifacts_to_inspect": [
+        "fixed_model_configuration_public.json",
+        "Supplementary Data 1 Tables S5 and S15"
+      ],
+      "boundary": "The configuration file records the fitted workflow; exact metric recomputation requires the observation-level verification table."
+    },
+    {
+      "claim_id": "rowwise_control_is_optimistic",
+      "claim": "Random row-wise splitting is an optimistic control rather than the primary performance estimate.",
+      "manuscript_location": "Abstract; Fig. 1; Table S11",
+      "public_artifacts_to_inspect": [
+        "src/public_pipeline_template.py",
+        "manuscript_metric_index_public.json",
+        "Supplementary Data 1 Table S11"
+      ],
+      "boundary": "Toy row-wise values are example outputs only."
+    },
+    {
+      "claim_id": "generic_descriptors_supply_structure_signal",
+      "claim": "Generic molecular descriptors provide the larger structure-derived gain over reported membrane/test covariates.",
+      "manuscript_location": "Main text; Fig. 2; Tables S6 and S8",
+      "public_artifacts_to_inspect": [
+        "manuscript_metric_index_public.json",
+        "Supplementary Data 1 Tables S6 and S8",
+        "figure_source_map_public.json: Fig. 2"
+      ],
+      "boundary": "The public toy feature-family loop is illustrative; reported values are indexed separately."
+    },
+    {
+      "claim_id": "aem_descriptors_are_interpretive",
+      "claim": "AEM descriptors add a small repeated-holdout increment and provide fitted response axes for follow-up measurement.",
+      "manuscript_location": "Main text; Figs. 2 and 3; Fig. S6; Tables S6\u2013S8 and S14",
+      "public_artifacts_to_inspect": [
+        "summary_data/aem_response_profile_coordinates_public.csv",
+        "Supplementary Data 1 Tables S6\u2013S8 and S14",
+        "figure_source_map_public.json: Fig. 3 and Fig. S6"
+      ],
+      "boundary": "Response profiles are fitted summaries, not direct morphology, free-volume, or transport-pathway measurements."
+    },
+    {
+      "claim_id": "support_distance_flags_risk",
+      "claim": "Mean held-out error increases with distance from training support.",
+      "manuscript_location": "Main text; Fig. S7; Table S13",
+      "public_artifacts_to_inspect": [
+        "Supplementary Data 1 Table S13",
+        "figure_source_map_public.json: Fig. S7"
+      ],
+      "boundary": "The trend is an aggregate risk indicator, not a universal cutoff."
+    },
+    {
+      "claim_id": "source_held_out_offsets",
+      "claim": "Source-held-out validation exposes raw source-level variation and baseline shifts.",
+      "manuscript_location": "Main text; Fig. 4; Fig. S8; Tables S6 and S9",
+      "public_artifacts_to_inspect": [
+        "manuscript_metric_index_public.json",
+        "Supplementary Data 1 Tables S6 and S9",
+        "figure_source_map_public.json: Fig. 4 and Fig. S8"
+      ],
+      "boundary": "Post hoc offset checks quantify shift size and are not prospective performance estimates."
+    },
+    {
+      "claim_id": "data_access_scope",
+      "claim": "Public summary artifacts and synthetic code are released, while observation-level verification follows the stated request route.",
+      "manuscript_location": "Data availability; Table S12",
+      "public_artifacts_to_inspect": [
+        "README.md",
+        "REPRODUCIBILITY_BOUNDARY.md",
+        "Supplementary Data 1 Table S12"
+      ],
+      "boundary": "Publisher-controlled full texts and source-derived extraction materials are not redistributed."
+    }
+  ],
+  "release_status": "frozen manuscript-companion release"
+}
